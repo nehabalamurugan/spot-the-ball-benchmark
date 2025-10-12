@@ -26,8 +26,10 @@
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 
-  <!-- CSS from Nerfies template will remain unchanged -->
-  <link rel="stylesheet" href="css/main.css">
+  <!-- CSS files -->
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
 </head>
 
 <!-- ================= HERO SECTION START ================= -->
@@ -40,17 +42,16 @@
     <!-- Author block with superscripts -->
     <p class="hero-authors">
       <a href="#" class="author-link">Neha Balamurugan<sup>1</sup></a>,
-      <a href="#" class="author-link">Chris<sup>1</sup></a>,
-      <a href="#" class="author-link">Adam Eyzaguirre<sup>1</sup></a>,
+      <a href="#" class="author-link">Sarah Wu<sup>2</sup></a>,
+      <a href="#" class="author-link">Chris Eyzaguirre<sup>1</sup></a>,
       <a href="#" class="author-link">Adam Chun<sup>1</sup></a>,
       <a href="#" class="author-link">Gabe Gaw<sup>1</sup></a>,
-      <a href="#" class="author-link">Sarah Wu<sup>2</sup></a>,
       <a href="#" class="author-link">Tobias Gerstenberg<sup>2</sup></a>
     </p>
 
     <!-- Affiliation block -->
     <p class="hero-affiliations">
-      <sup>1</sup>Stanford Computer Science &nbsp;&nbsp; <sup>2</sup>Stanford Psychology
+      <sup>1</sup>Stanford Computer Science 🤖 &nbsp;&nbsp; <sup>2</sup>Stanford Psychology 🧠 
     </p>
 
     <!-- Button row -->
@@ -130,3 +131,171 @@
 </section>
 <!-- ================= TRY THE TASK / DEMO SECTION END ================= -->
 
+<!-- ================= PIPELINE SECTION START ================= -->
+<section id="pipeline" class="section">
+  <div class="container">
+    <h2 class="section-title">Benchmark Pipeline</h2>
+    <p class="section-text">
+      Our Spot The Ball benchmark is built using a scalable generation pipeline that processes raw broadcast sports videos into
+      structured inference tasks with human annotations. The pipeline consists of four stages:
+    </p>
+
+    <!-- Main Pipeline Image -->
+    <div class="pipeline-main-image">
+      <img src="static/images/pipeline.jpg" alt="Spot The Ball Pipeline" class="pipeline-img-main">
+    </div>
+
+    <div class="pipeline-grid">
+      <!-- Step 1 -->
+      <div class="pipeline-step">
+        <h3 class="pipeline-step-title">1. Video Retrieval</h3>
+        <p class="pipeline-step-text">
+          We retrieve YouTube clips using sport-specific queries to bias toward high-action moments with clear player interactions.
+        </p>
+      </div>
+
+      <!-- Step 2 -->
+      <div class="pipeline-step">
+        <h3 class="pipeline-step-title">2. Frame Selection</h3>
+        <p class="pipeline-step-text">
+          Frames are filtered using CLIP similarity scoring to retain only visually informative scenes with a visible ball and players.
+        </p>
+      </div>
+
+      <!-- Step 3 -->
+      <div class="pipeline-step">
+        <h3 class="pipeline-step-title">3. Ball Masking & Inpainting</h3>
+        <p class="pipeline-step-text">
+          YOLOv8 identifies ball and player locations. The ball is removed and realistically filled using diffusion-based inpainting.
+        </p>
+      </div>
+
+      <!-- Step 4 -->
+      <div class="pipeline-step">
+        <h3 class="pipeline-step-title">4. Grid Overlay & Metadata</h3>
+        <p class="pipeline-step-text">
+          A 6×10 grid is applied, ground-truth locations are recorded, and scenes are prepared for model and human evaluation.                                                                                          
+        </p>
+      </div>
+    </div>
+
+    <p class="section-text" style="margin-top: 24px;">
+      <!-- Info note -->
+      <em>The pipeline image above shows the complete workflow from video retrieval to final evaluation setup.</em>
+    </p>
+  </div>
+</section>
+<!-- ================= PIPELINE SECTION END ================= -->
+<!-- ================= RESULTS SECTION START ================= -->
+<section id="results" class="section">
+  <div class="container">
+    <h2 class="section-title">Results</h2>
+    <p class="section-text">
+      We evaluate human participants and four state-of-the-art VLMs (Gemini, GPT, LLaMA, Qwen) across three sports and multiple prompting strategies.
+      Models consistently underperform humans not only in accuracy but also in spatial precision and distributional similarity.
+    </p>
+
+    <!-- Accuracy Placeholder -->
+    <div class="results-figure">
+      <img src="assets/results_accuracy_placeholder.png" class="results-img" alt="Accuracy Results Placeholder">
+      <p class="figure-caption"><strong>Figure:</strong> Accuracy across models vs. humans. (Replace with real results_accuracy.png)</p>
+    </div>
+
+    <!-- Euclidean Error Placeholder -->
+    <div class="results-figure">
+      <img src="assets/results_error_placeholder.png" class="results-img" alt="Euclidean Error Placeholder">
+      <p class="figure-caption"><strong>Figure:</strong> Mean Euclidean error with standard deviation. (Replace with real results_error.png)</p>
+    </div>
+
+    <!-- Distribution Similarity Placeholder -->
+    <div class="results-figure">
+      <img src="assets/results_wasserstein_placeholder.png" class="results-img" alt="Wasserstein Distance Placeholder">
+      <p class="figure-caption"><strong>Figure:</strong> Wasserstein distance between model guess distributions and human guess distributions. (Replace with real results_wasserstein.png)</p>
+    </div>
+  </div>
+</section>
+<!-- ================= RESULTS SECTION END ================= -->
+<!-- ================= QUALITATIVE EXAMPLES SECTION START ================= -->
+<section id="qualitative" class="section">
+  <div class="container">
+    <h2 class="section-title">Qualitative Analysis</h2>
+    <p class="section-text">
+      To better understand failure modes, we visualize model predictions alongside human guesses. Despite accurately describing scene elements in chain-of-thought prompts, models frequently disregard gaze direction, confuse player roles, or default to spatial heuristics such as center bias.
+    </p>
+
+    <div class="qual-grid">
+      <!-- Example A -->
+      <div class="qual-card">
+        <img src="assets/qual_example1_placeholder.png" alt="Neglect of Gaze Example" class="qual-img">
+        <p class="figure-caption"><strong>Example A — Neglect of Gaze:</strong> Model prediction clusters near player feet despite all player gaze converging left.</p>
+      </div>
+
+      <!-- Example B -->
+      <div class="qual-card">
+        <img src="assets/qual_example2_placeholder.png" alt="Role Confusion Example" class="qual-img">
+        <p class="figure-caption"><strong>Example B — Role Confusion:</strong> Model incorrectly infers ball possession role, leading to distant guess from true location.</p>
+      </div>
+
+      <!-- Example C -->
+      <div class="qual-card">
+        <img src="assets/qual_example3_placeholder.png" alt="Center Bias Example" class="qual-img">
+        <p class="figure-caption"><strong>Example C — Center Bias:</strong> Model defaults to center of frame (net area), a low-probability ball location in volleyball.</p>
+      </div>
+    </div>
+
+    <p class="section-text" style="margin-top: 24px;">
+      <em>Note: Replace <code>qual_example*_placeholder.png</code> in <code>/website/assets/</code> with your actual qualitative visualization panels from the paper.</em>
+    </p>
+  </div>
+</section>
+<!-- ================= QUALITATIVE EXAMPLES SECTION END ================= -->
+
+<!-- ================= CITATION SECTION START ================= -->
+<section id="citation" class="section">
+  <div class="container">
+    <h2 class="section-title">Citation</h2>
+    <p class="section-text">
+      If you find this benchmark or dataset useful in your research, please cite:
+    </p>
+
+    <!-- Copyable BibTeX Box -->
+    <div class="bibtex-container">
+      <pre id="bibtex-entry" class="bibtex-block">
+@inproceedings{balamurugan2025spottheball,
+  title     = {Spot The Ball: A Benchmark for Visual Social Inference in Sports Scenes},
+  author    = {Balamurugan, Neha and Wu, Sarah and Eyzaguirre, Adam and Chun, Adam and Gaw, Gabe and Gerstenberg, Tobias and Chris},
+  booktitle = {Fill in later},
+  year      = {2025}
+}
+      </pre>
+      <button class="copy-btn" onclick="copyBibtex()">Copy</button>
+    </div>
+  </div>
+</section>
+
+<!-- Copy Script -->
+<script>
+function copyBibtex() {
+  const bib = document.getElementById('bibtex-entry').innerText;
+  navigator.clipboard.writeText(bib).then(() => {
+    alert('BibTeX copied to clipboard!');
+  });
+}
+</script>
+<!-- ================= CITATION SECTION END ================= -->
+<!-- ================= FOOTER SECTION START ================= -->
+<footer class="footer">
+  <div class="container">
+    <p class="footer-text">
+      Made by <strong>Neha Balamurugan</strong> · Built using the Nerfies project page template.
+    </p>
+    <p class="footer-links">
+      <a href="https://huggingface.co/datasets/nehabalamurugan/spot-the-ball" target="_blank">📦 Dataset on HuggingFace</a> ·
+      <a href="#" target="_blank">💻 GitHub Repository</a> ·
+      <a href="https://v0-new-project-9b5vt6k9ugb.vercel.app/" target="_blank">🎮 Try Demo</a>
+    </p>
+  </div>
+</footer>
+<!-- ================= FOOTER SECTION END ================= -->
+</body>
+</html>
