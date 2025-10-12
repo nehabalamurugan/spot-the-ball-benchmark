@@ -6,7 +6,7 @@ body {
 
 /* Hero Section */
 .hero {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #ff6b6b 0%, #ff8e53 50%, #ff6b35 100%);
   color: white;
   padding: 4rem 0;
   text-align: center;
@@ -59,7 +59,7 @@ body {
 
 .btn-primary {
   background-color: #fff;
-  color: #667eea;
+  color: #ff6b6b;
   border-color: #fff;
 }
 
@@ -77,7 +77,7 @@ body {
 
 .btn-secondary:hover {
   background-color: #fff;
-  color: #667eea;
+  color: #ff6b6b;
 }
 
 /* Sections */
@@ -86,7 +86,7 @@ body {
 }
 
 .section:nth-child(even) {
-  background-color: #f8f9fa;
+  background-color: #fff5f5;
 }
 
 .section-title {
@@ -94,7 +94,7 @@ body {
   font-weight: 700;
   text-align: center;
   margin-bottom: 2rem;
-  color: #333;
+  color: #d63031;
 }
 
 .section-text {
@@ -139,7 +139,7 @@ body {
   font-size: 1.3rem;
   font-weight: 600;
   margin-bottom: 1rem;
-  color: #333;
+  color: #d63031;
 }
 
 .pipeline-step-text {
@@ -179,7 +179,7 @@ body {
   font-size: 1.2rem;
   font-weight: 600;
   margin-bottom: 1rem;
-  color: #333;
+  color: #d63031;
 }
 
 .qual-example-text {
@@ -210,7 +210,7 @@ body {
 
 /* Citation Section */
 .bibtex-container {
-  background: #f8f9fa;
+  background: #fff5f5;
   border-radius: 8px;
   padding: 1.5rem;
   margin: 2rem 0;
@@ -233,7 +233,7 @@ body {
   position: absolute;
   top: 1rem;
   right: 1rem;
-  background: #667eea;
+  background: #ff6b6b;
   color: white;
   border: none;
   padding: 8px 16px;
@@ -245,12 +245,12 @@ body {
 }
 
 .copy-btn:hover {
-  background: #5a67d8;
+  background: #e55656;
 }
 
 /* Footer */
 .footer {
-  background: #2d3748;
+  background: linear-gradient(135deg, #d63031 0%, #ff6b35 100%);
   color: white;
   padding: 3rem 0;
   text-align: center;

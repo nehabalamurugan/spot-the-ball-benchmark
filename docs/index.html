@@ -85,15 +85,8 @@
   <div class="container">
     <h2 class="section-title">Abstract</h2>
     <p class="section-text">
-      Vision–language models (VLMs) are increasingly used in socially grounded perception tasks,
-      yet it remains unclear whether they can perform human-like social inference from visual cues alone.
-      We introduce <strong>Spot The Ball</strong>, a benchmark designed to evaluate visual social reasoning
-      by asking models to infer the location of an intentionally removed ball in soccer, basketball, and
-      volleyball scenes using cues such as gaze, body orientation, and spatial role alignment. We compare
-      four leading VLMs (Gemini, GPT, LLaMA, Qwen) against human performance across multiple prompting
-      strategies and analyze systematic error patterns. Despite heavy exposure to sports scenes in web-scale
-      pretraining, current models fall significantly short of human inference ability, revealing a persistent
-      gap in embodied social understanding.
+      Humans excel at <strong>visual social inference</strong>: inferring hidden elements of a scene from subtle behavioral cues such as gaze, pose, and orientation. This ability drives everyday social reasoning and is critical for embodied AI. We introduce <strong>Spot the Ball</strong>, a benchmark to evaluate visual social inference in vision–language models (VLMs) using sports as a test domain. The task is to localize the missing sports ball from soccer, basketball, and volleyball images.
+      We present a curated evaluation set with human baselines and a scalable pipeline for generating additional test items. We evaluate four state-of-the-art VLMs (Gemini, GPT, LLaMA, Qwen) and three prompting strategies, finding that humans are consistently two to three times more accurate ($20$–$34\%$) than models ($\leq 17\%$) across all sports. Error analyses reveal that models exhibit systematic, unproductive biases and fail to leverage the social cues that humans rely on such as gaze and body pose. Our results highlight a persistent human–model gap in visual social inference and emphasize the need for architectures that explicitly integrate structured behavioral cues for robust multimodal reasoning.
     </p>
   </div>
 </section>
