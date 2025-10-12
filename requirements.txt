@@ -6,3 +6,15 @@ Setup
 ```
 pip install -r requirements.txt
 ```
+
+Dependencies:
+numpy
+pandas
+scikit-learn
+tqdm
+google-auth
+google-generativeai
+openai
+matplotlib
+seaborn
+python-dotenv
