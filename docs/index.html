@@ -223,28 +223,39 @@
       To better understand failure modes, we visualize model predictions alongside human guesses. Despite accurately describing scene elements in chain-of-thought prompts, models frequently disregard gaze direction, confuse player roles, or default to spatial heuristics such as center bias.
     </p>
 
+    <!-- Main Qualitative Analysis Image -->
+    <div class="qualitative-main-image">
+      <img src="static/images/qualitative.jpg" alt="Qualitative Analysis Examples" class="qualitative-img-main">
+    </div>
+
     <div class="qual-grid">
       <!-- Example A -->
       <div class="qual-card">
-        <img src="assets/qual_example1_placeholder.png" alt="Neglect of Gaze Example" class="qual-img">
-        <p class="figure-caption"><strong>Example A — Neglect of Gaze:</strong> Model prediction clusters near player feet despite all player gaze converging left.</p>
+        <h4 class="qual-example-title">Example A — Neglect of Gaze</h4>
+        <p class="qual-example-text">
+          Model prediction clusters near player feet despite all player gaze converging left.
+        </p>
       </div>
 
       <!-- Example B -->
       <div class="qual-card">
-        <img src="assets/qual_example2_placeholder.png" alt="Role Confusion Example" class="qual-img">
-        <p class="figure-caption"><strong>Example B — Role Confusion:</strong> Model incorrectly infers ball possession role, leading to distant guess from true location.</p>
+        <h4 class="qual-example-title">Example B — Role Confusion</h4>
+        <p class="qual-example-text">
+          Model incorrectly infers ball possession role, leading to distant guess from true location.
+        </p>
       </div>
 
       <!-- Example C -->
       <div class="qual-card">
-        <img src="assets/qual_example3_placeholder.png" alt="Center Bias Example" class="qual-img">
-        <p class="figure-caption"><strong>Example C — Center Bias:</strong> Model defaults to center of frame (net area), a low-probability ball location in volleyball.</p>
+        <h4 class="qual-example-title">Example C — Center Bias</h4>
+        <p class="qual-example-text">
+          Model defaults to center of frame (net area), a low-probability ball location in volleyball.
+        </p>
       </div>
     </div>
 
     <p class="section-text" style="margin-top: 24px;">
-      <em>Note: Replace <code>qual_example*_placeholder.png</code> in <code>/website/assets/</code> with your actual qualitative visualization panels from the paper.</em>
+      <em>The qualitative analysis above shows common failure modes in model predictions compared to human performance.</em>
     </p>
   </div>
 </section>
