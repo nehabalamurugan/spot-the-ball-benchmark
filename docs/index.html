@@ -79,4 +79,54 @@
 </header>
 <!-- ================= HERO SECTION END ================= -->
 
+<!-- ================= ABSTRACT SECTION START ================= -->
+<section id="abstract" class="section">
+  <div class="container">
+    <h2 class="section-title">Abstract</h2>
+    <p class="section-text">
+      Vision–language models (VLMs) are increasingly used in socially grounded perception tasks,
+      yet it remains unclear whether they can perform human-like social inference from visual cues alone.
+      We introduce <strong>Spot The Ball</strong>, a benchmark designed to evaluate visual social reasoning
+      by asking models to infer the location of an intentionally removed ball in soccer, basketball, and
+      volleyball scenes using cues such as gaze, body orientation, and spatial role alignment. We compare
+      four leading VLMs (Gemini, GPT, LLaMA, Qwen) against human performance across multiple prompting
+      strategies and analyze systematic error patterns. Despite heavy exposure to sports scenes in web-scale
+      pretraining, current models fall significantly short of human inference ability, revealing a persistent
+      gap in embodied social understanding.
+    </p>
+  </div>
+</section>
+<!-- ================= ABSTRACT SECTION END ================= -->
+
+
+<!-- ================= TRY THE TASK / DEMO SECTION START ================= -->
+<section id="demo" class="section">
+  <div class="container">
+    <h2 class="section-title">🎮 Try the Task</h2>
+    <p class="section-text">
+      Before diving into the benchmark details, try the interactive demo below. Your goal is the same as
+      the evaluation task: based on player pose, gaze, and positioning—can you infer where the ball used to be?
+    </p>
+
+    <!-- Demo Preview with Overlay Play (Image placeholder, replace game_preview.png later) -->
+    <div class="demo-preview" style="position: relative; max-width: 800px; margin: 24px auto;">
+      <a href="https://v0-new-project-9b5vt6k9ugb.vercel.app/" target="_blank">
+        <img src="assets/game_preview.png" alt="Spot The Ball Game Preview"
+             style="width:100%; border-radius:8px; filter:brightness(0.9);">
+        <div style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);
+                    background:rgba(0,0,0,0.6); padding:12px 24px; border-radius:6px;
+                    color:white; font-size:18px; font-weight:500;">
+          ▶ Play Fullscreen
+        </div>
+      </a>
+    </div>
+
+    <!-- Inline iframe embed -->
+    <iframe
+      src="https://v0-new-project-9b5vt6k9ugb.vercel.app/"
+      style="width:100%; height:600px; border:none; border-radius:8px; margin-top:20px;">
+    </iframe>
+  </div>
+</section>
+<!-- ================= TRY THE TASK / DEMO SECTION END ================= -->
 
