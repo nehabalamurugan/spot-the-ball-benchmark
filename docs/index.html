@@ -33,16 +33,17 @@
   <link rel="stylesheet" href="static/css/index.css">
 </head>
 
-<!-- ================= SIDE NAVIGATION ================= -->
-<nav class="side-nav" id="sideNav">
-  <div class="side-nav-content">
-    <ul class="side-nav-list">
-      <li><a href="#abstract" class="side-nav-link">Abstract</a></li>
-      <li><a href="#demo" class="side-nav-link">Demo</a></li>
-      <li><a href="#pipeline" class="side-nav-link">Pipeline</a></li>
-      <li><a href="#results" class="side-nav-link">Results</a></li>
-      <li><a href="#qualitative" class="side-nav-link">Qualitative</a></li>
-      <li><a href="#citation" class="side-nav-link">Citation</a></li>
+<!-- ================= BOTTOM NAVIGATION ================= -->
+<nav class="bottom-nav" id="bottomNav">
+  <div class="bottom-nav-content">
+    <ul class="bottom-nav-list">
+      <li><a href="#abstract" class="bottom-nav-link">Abstract</a></li>
+      <li><a href="#demo" class="bottom-nav-link">Demo</a></li>
+      <li><a href="#pipeline" class="bottom-nav-link">Pipeline</a></li>
+      <li><a href="#results" class="bottom-nav-link">Results</a></li>
+      <li><a href="#qualitative" class="bottom-nav-link">Qualitative</a></li>
+      <li><a href="#discussion" class="bottom-nav-link">Discussion</a></li>
+      <li><a href="#citation" class="bottom-nav-link">Citation</a></li>
     </ul>
   </div>
 </nav>
@@ -487,10 +488,10 @@ function copyBibtex() {
 <!-- ================= FOOTER SECTION END ================= -->
 
 <script>
-// Side navigation functionality
+// Bottom navigation functionality
 document.addEventListener('DOMContentLoaded', function() {
-  const sideNav = document.getElementById('sideNav');
-  const navLinks = document.querySelectorAll('.side-nav-link');
+  const bottomNav = document.getElementById('bottomNav');
+  const navLinks = document.querySelectorAll('.bottom-nav-link');
   const sections = document.querySelectorAll('section[id]');
 
   // Smooth scrolling for navigation links

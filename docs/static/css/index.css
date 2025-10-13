@@ -203,7 +203,7 @@ body {
 }
 
 .qualitative-img-main {
-  max-width: 100%;
+  max-width: 70%;
   height: auto;
   border-radius: 8px;
   box-shadow: 0 4px 20px rgba(0,0,0,0.1);
@@ -428,75 +428,94 @@ body {
   background: #5a67d8;
 }
 
-/* Side Navigation */
-.side-nav {
+/* Bottom Navigation */
+.bottom-nav {
   position: fixed;
-  top: 50%;
-  right: 2rem;
-  transform: translateY(-50%);
+  bottom: 0;
+  left: 0;
+  right: 0;
   z-index: 1000;
   background: rgba(255, 255, 255, 0.95);
   backdrop-filter: blur(10px);
-  border-radius: 12px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-  padding: 1rem;
-  max-width: 200px;
-  transition: all 0.3s ease;
+  border-top: 1px solid rgba(116, 185, 255, 0.2);
+  box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.1);
+  padding: 1rem 0;
 }
 
-.side-nav-content {
-  width: 100%;
+.bottom-nav-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
 }
 
-.side-nav-list {
+.bottom-nav-list {
   list-style: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
 }
 
-.side-nav-list li {
-  margin: 0.5rem 0;
+.bottom-nav-list li {
+  margin: 0;
 }
 
-.side-nav-link {
+.bottom-nav-link {
   display: block;
-  padding: 0.75rem 1rem;
+  padding: 0.75rem 1.5rem;
   color: #4a5568;
   text-decoration: none;
-  border-radius: 8px;
+  border-radius: 25px;
   font-size: 0.9rem;
   font-weight: 500;
   transition: all 0.3s ease;
   position: relative;
+  white-space: nowrap;
 }
 
-.side-nav-link:hover {
+.bottom-nav-link:hover {
   background: linear-gradient(135deg, #74b9ff 0%, #0984e3 100%);
   color: white;
-  transform: translateX(-4px);
+  transform: translateY(-2px);
 }
 
-.side-nav-link.active {
+.bottom-nav-link.active {
   background: linear-gradient(135deg, #74b9ff 0%, #0984e3 100%);
   color: white;
 }
 
-.side-nav-link.active::before {
+.bottom-nav-link.active::after {
   content: '';
   position: absolute;
-  left: -8px;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 4px;
-  height: 20px;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 6px;
+  height: 6px;
   background: #74b9ff;
-  border-radius: 2px;
+  border-radius: 50%;
 }
 
-/* Hide side nav on mobile */
+/* Add bottom padding to body to account for fixed nav */
+body {
+  padding-bottom: 80px;
+}
+
+/* Mobile responsiveness */
 @media (max-width: 768px) {
-  .side-nav {
-    display: none;
+  .bottom-nav-list {
+    gap: 1rem;
+  }
+  
+  .bottom-nav-link {
+    padding: 0.6rem 1rem;
+    font-size: 0.8rem;
+  }
+  
+  body {
+    padding-bottom: 70px;
   }
 }
 
