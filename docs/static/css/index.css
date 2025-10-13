@@ -1,5 +1,5 @@
 body {
-  font-family: 'Inter', 'Noto Sans', sans-serif;
+  font-family: 'Google Sans', 'Inter', 'Noto Sans', sans-serif;
   line-height: 1.6;
   color: #333;
 }
@@ -9,7 +9,7 @@ body {
   background: linear-gradient(135deg, #74b9ff 0%, #0984e3 100%);
   color: white;
   padding: 4rem 0;
-  text-align: center;
+  text-align: left;
 }
 
 .hero-title {
@@ -17,11 +17,13 @@ body {
   font-weight: 700;
   margin-bottom: 1.5rem;
   line-height: 1.2;
+  text-align: center;
 }
 
 .hero-authors {
   font-size: 1.1rem;
   margin-bottom: 1rem;
+  text-align: center;
 }
 
 .hero-authors .author-link {
@@ -34,10 +36,21 @@ body {
   text-decoration: underline;
 }
 
+.hero-text {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+  text-align: center;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .hero-affiliations {
   font-size: 1rem;
   margin-bottom: 2rem;
   opacity: 0.9;
+  text-align: center;
 }
 
 .hero-buttons {
@@ -101,10 +114,34 @@ body {
   font-size: 1.1rem;
   line-height: 1.8;
   margin-bottom: 2rem;
-  text-align: center;
+  text-align: left;
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* Subsection styling */
+.subsection {
+  margin: 2rem 0;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.subsection-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #2d3748;
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+
+.subsection-text {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #4a5568;
+  text-align: left;
+  margin-bottom: 1rem;
 }
 
 /* Pipeline Section */
@@ -133,6 +170,10 @@ body {
   background: white;
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 300px;
 }
 
 .pipeline-step-title {
@@ -146,6 +187,13 @@ body {
   font-size: 1rem;
   line-height: 1.6;
   color: #666;
+  flex-grow: 0;
+}
+
+.pipeline-step-image {
+  text-align: center;
+  margin-top: auto;
+  padding-top: 1rem;
 }
 
 /* Qualitative Section */
@@ -188,6 +236,138 @@ body {
   color: #666;
 }
 
+/* Model Bubbles */
+.model-bubbles {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 2rem 0 3rem 0;
+  flex-wrap: wrap;
+}
+
+.model-bubble {
+  position: relative;
+  background: linear-gradient(135deg, #a8d8ff 0%, #74b9ff 100%);
+  color: #2d3748;
+  padding: 1.2rem 1.8rem;
+  border-radius: 16px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(168, 216, 255, 0.3);
+  min-width: 120px;
+}
+
+.model-bubble:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(168, 216, 255, 0.4);
+}
+
+.model-bubble .bubble-content h4 {
+  margin: 0 0 0.3rem 0;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #2d3748;
+}
+
+.model-bubble .bubble-content p {
+  margin: 0;
+  font-size: 0.8rem;
+  opacity: 0.8;
+  color: #4a5568;
+}
+
+/* Prompt Bubbles */
+.prompt-bubbles {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 3rem 0;
+  flex-wrap: wrap;
+}
+
+.prompt-bubble {
+  position: relative;
+  background: linear-gradient(135deg, #a8d8ff 0%, #74b9ff 100%);
+  color: #2d3748;
+  padding: 1.5rem 2rem;
+  border-radius: 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(168, 216, 255, 0.3);
+  min-width: 150px;
+}
+
+.prompt-bubble:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(168, 216, 255, 0.4);
+}
+
+.prompt-bubble .bubble-content h4 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #2d3748;
+}
+
+.prompt-bubble .bubble-content p {
+  margin: 0;
+  font-size: 0.9rem;
+  opacity: 0.8;
+  color: #4a5568;
+}
+
+.bubble-tooltip {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #2d3748;
+  color: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  width: 300px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 1000;
+  margin-bottom: 10px;
+}
+
+.bubble-tooltip::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 8px solid transparent;
+  border-top-color: #2d3748;
+}
+
+.prompt-bubble:hover .bubble-tooltip {
+  opacity: 1;
+  visibility: visible;
+}
+
+.bubble-tooltip h5 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1rem;
+  color: #a8d8ff;
+}
+
+.bubble-tooltip p {
+  margin: 0;
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+.bubble-tooltip p strong {
+  color: #fff;
+  font-weight: 600;
+}
+
 /* Results Section */
 .results-figure {
   text-align: center;
@@ -218,8 +398,8 @@ body {
 }
 
 .bibtex-block {
-  background: #a2bdec;
-  color: #e2e8f0;
+  background: #ffffff;
+  color: #000000;
   padding: 1.5rem;
   border-radius: 6px;
   font-family: 'Courier New', monospace;
@@ -246,6 +426,78 @@ body {
 
 .copy-btn:hover {
   background: #5a67d8;
+}
+
+/* Side Navigation */
+.side-nav {
+  position: fixed;
+  top: 50%;
+  right: 2rem;
+  transform: translateY(-50%);
+  z-index: 1000;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  max-width: 200px;
+  transition: all 0.3s ease;
+}
+
+.side-nav-content {
+  width: 100%;
+}
+
+.side-nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.side-nav-list li {
+  margin: 0.5rem 0;
+}
+
+.side-nav-link {
+  display: block;
+  padding: 0.75rem 1rem;
+  color: #4a5568;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.side-nav-link:hover {
+  background: linear-gradient(135deg, #74b9ff 0%, #0984e3 100%);
+  color: white;
+  transform: translateX(-4px);
+}
+
+.side-nav-link.active {
+  background: linear-gradient(135deg, #74b9ff 0%, #0984e3 100%);
+  color: white;
+}
+
+.side-nav-link.active::before {
+  content: '';
+  position: absolute;
+  left: -8px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 4px;
+  height: 20px;
+  background: #74b9ff;
+  border-radius: 2px;
+}
+
+/* Hide side nav on mobile */
+@media (max-width: 768px) {
+  .side-nav {
+    display: none;
+  }
 }
 
 /* Footer */
@@ -276,10 +528,23 @@ body {
   color: white;
 }
 
+/* Footer text links (like the Emily Dickinson quote) */
+.footer-text a {
+  color: #fff;
+  text-decoration: underline;
+  transition: opacity 0.3s ease;
+}
+
+.footer-text a:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .hero-title {
     font-size: 2.5rem;
+    text-align: center;
   }
   
   .section-title {

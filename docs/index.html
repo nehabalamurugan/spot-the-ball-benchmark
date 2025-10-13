@@ -25,13 +25,27 @@
   <link rel="icon" href="static/images/favicon.ico" type="image/x-icon">
 
   <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 
   <!-- CSS files -->
   <link rel="stylesheet" href="static/css/bulma.min.css">
   <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
   <link rel="stylesheet" href="static/css/index.css">
 </head>
+
+<!-- ================= SIDE NAVIGATION ================= -->
+<nav class="side-nav" id="sideNav">
+  <div class="side-nav-content">
+    <ul class="side-nav-list">
+      <li><a href="#abstract" class="side-nav-link">Abstract</a></li>
+      <li><a href="#demo" class="side-nav-link">Demo</a></li>
+      <li><a href="#pipeline" class="side-nav-link">Pipeline</a></li>
+      <li><a href="#results" class="side-nav-link">Results</a></li>
+      <li><a href="#qualitative" class="side-nav-link">Qualitative</a></li>
+      <li><a href="#citation" class="side-nav-link">Citation</a></li>
+    </ul>
+  </div>
+</nav>
 
 <!-- ================= HERO SECTION START ================= -->
 <header class="hero">
@@ -51,12 +65,13 @@
     </p>
 
     <!-- Affiliation block -->
+    <p class="hero-text">
+      Stanford University
+    </p>
     <p class="hero-affiliations">
       <sup>1</sup> Computer Science 🤖 &nbsp;&nbsp; <sup>2</sup> Psychology 🧠 
     </p>
-    <p class="hero-affiliations">
-      <sup></sup>Stanford University
-    </p>
+    
 
     <!-- Button row -->
     <div class="hero-buttons">
@@ -100,11 +115,11 @@
 <!-- ================= TRY THE TASK / DEMO SECTION START ================= -->
 <section id="demo" class="section">
   <div class="container">
-    <h2 class="section-title">🎮 Try the Task</h2>
-    <p class="section-text">
-      Before diving into the benchmark details, try the interactive demo below. Your goal is the same as
+    <h2 class="section-title">🎮 Try the task yourself!</h2>
+    <!-- <p class="section-text">
+      Before diving into the benchmark details, try the demo below. Your goal is the same as
       the evaluation task: based on player pose, gaze, and positioning—can you infer where the ball used to be?
-    </p>
+    </p> -->
 
     <!-- Demo Preview with Overlay Play (Image placeholder, replace game_preview.png later) -->
     <!-- <div class="demo-preview" style="position: relative; max-width: 800px; margin: 24px auto;">
@@ -131,16 +146,11 @@
 <!-- ================= PIPELINE SECTION START ================= -->
 <section id="pipeline" class="section">
   <div class="container">
-    <h2 class="section-title">Benchmark Pipeline</h2>
+    <h2 class="section-title">🎨 Benchmark Generation Pipeline</h2>
     <p class="section-text">
       Our Spot The Ball benchmark is built using a scalable generation pipeline that processes raw broadcast sports videos into
       structured inference tasks with human annotations. The pipeline consists of four stages:
     </p>
-
-    <!-- Main Pipeline Image -->
-    <div class="pipeline-main-image">
-      <img src="static/images/pipeline.jpg" alt="Spot The Ball Pipeline" class="pipeline-img-main">
-    </div>
 
     <div class="pipeline-grid">
       <!-- Step 1 -->
@@ -149,6 +159,9 @@
         <p class="pipeline-step-text">
           We retrieve YouTube clips using sport-specific queries to bias toward high-action moments with clear player interactions.
         </p>
+        <div class="pipeline-step-image">
+          <img src="static/images/yt.png" alt="Frame Selection Process" style="max-width: 50%; height: auto; border-radius: 0px;">
+        </div>
       </div>
 
       <!-- Step 2 -->
@@ -157,6 +170,9 @@
         <p class="pipeline-step-text">
           Frames are filtered using CLIP similarity scoring to retain only visually informative scenes with a visible ball and players.
         </p>
+        <div class="pipeline-step-image">
+          <img src="static/images/original_pipe.png" alt="Frame Selection Process" style="max-width: 100%; height: auto; border-radius: 0px;">
+        </div>
       </div>
 
       <!-- Step 3 -->
@@ -165,6 +181,9 @@
         <p class="pipeline-step-text">
           YOLOv8 identifies ball and player locations. The ball is removed and realistically filled using diffusion-based inpainting.
         </p>
+        <div class="pipeline-step-image">
+          <img src="static/images/yolo.png" alt="Frame Selection Process" style="max-width: 100%; height: auto; border-radius: 0px;">
+        </div>
       </div>
 
       <!-- Step 4 -->
@@ -173,49 +192,168 @@
         <p class="pipeline-step-text">
           A 6×10 grid is applied, ground-truth locations are recorded, and scenes are prepared for model and human evaluation.                                                                                          
         </p>
+        <div class="pipeline-step-image">
+          <img src="static/images/grid.png" alt="Frame Selection Process" style="max-width: 100%; height: auto; border-radius: 0px;">
+        </div>
       </div>
     </div>
 
-    <p class="section-text" style="margin-top: 24px;">
-      <!-- Info note -->
-      <em>The pipeline image above shows the complete workflow from video retrieval to final evaluation setup.</em>
-    </p>
+    
   </div>
 </section>
 <!-- ================= PIPELINE SECTION END ================= -->
 <!-- ================= RESULTS SECTION START ================= -->
 <section id="results" class="section">
   <div class="container">
-    <h2 class="section-title">Results</h2>
+    <h2 class="section-title">👩🏾‍💻 Results</h2>
     <p class="section-text">
-      We evaluate human participants and four state-of-the-art VLMs (Gemini, GPT, LLaMA, Qwen) across three sports and multiple prompting strategies.
+      We evaluate human participants and four state-of-the-art VLMs across three sports and multiple prompting strategies.
       Models consistently underperform humans not only in accuracy but also in spatial precision and distributional similarity.
     </p>
 
+    <!-- Model Bubbles -->
+    <div class="model-bubbles">
+      <div class="model-bubble" data-model="gemini">
+        <div class="bubble-content">
+          <h4>Gemini</h4>
+          <p>2.0-flash-001</p>
+        </div>
+        <div class="bubble-tooltip">
+          <h5>Google Gemini 2.0 Flash</h5>
+          <p>Google's latest multimodal model with enhanced vision capabilities and reasoning abilities.</p>
+        </div>
+      </div>
+
+      <div class="model-bubble" data-model="gpt">
+        <div class="bubble-content">
+          <h4>GPT</h4>
+          <p>4.1-mini</p>
+        </div>
+        <div class="bubble-tooltip">
+          <h5>OpenAI GPT-4.1 Mini</h5>
+          <p>OpenAI's efficient multimodal model optimized for speed and cost-effectiveness.</p>
+        </div>
+      </div>
+
+      <div class="model-bubble" data-model="llama">
+        <div class="bubble-content">
+          <h4>LLaMA</h4>
+          <p>3.2-11B-Vision</p>
+        </div>
+        <div class="bubble-tooltip">
+          <h5>Meta LLaMA 3.2 11B Vision</h5>
+          <p>Meta's open-source vision-language model with 11B parameters and instruction tuning.</p>
+        </div>
+      </div>
+
+      <div class="model-bubble" data-model="qwen">
+        <div class="bubble-content">
+          <h4>Qwen</h4>
+          <p>2.5-VL-7B</p>
+        </div>
+        <div class="bubble-tooltip">
+          <h5>Alibaba Qwen 2.5 VL 7B</h5>
+          <p>Alibaba's vision-language model with strong multimodal understanding capabilities.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Prompt Level Bubbles -->
+    <div class="prompt-bubbles">
+      <div class="prompt-bubble" data-prompt="base">
+        <div class="bubble-content">
+          <h4>Base Prompt</h4>
+          <p>(Level 0)</p>
+        </div>
+        <div class="bubble-tooltip">
+          <h5>System Prompt:</h5>
+          <p>The ball has been removed from this {sport} image. Your task is to infer the most likely location of the ball.<br><br>
+          Respond in the following format:<br>
+          Reasoning: &lt;Explain where the ball is likely located and why.&gt;<br>
+          Cell: &lt;What grid cell is the ball most likely located in? Respond with a label like F4.&gt;</p>
+        </div>
+      </div>
+
+      <div class="prompt-bubble" data-prompt="cue">
+        <div class="bubble-content">
+          <h4>Cue-Directed</h4>
+          <p>(Level 1)</p>
+        </div>
+        <div class="bubble-tooltip">
+          <h5>System Prompt:</h5>
+          <p>The ball has been removed from this {sport} image. Your task is to infer the most likely location of the ball.<br>
+          The location of the players, where they are looking and their positions can help you infer the location of the ball.<br><br>
+          Respond in the following format:<br>
+          Reasoning: &lt;Explain where the ball is likely located and why.&gt;<br>
+          Cell: &lt;What grid cell is the ball most likely located in? Respond with a label like F4.&gt;</p>
+        </div>
+      </div>
+
+      <div class="prompt-bubble" data-prompt="cot">
+        <div class="bubble-content">
+          <h4>COT Cue-Directed</h4>
+          <p>(Level 2)</p>
+        </div>
+        <div class="bubble-tooltip">
+          <h5>Two-Step Prompting Process:</h5>
+          <p><strong>Prompt 1 (Context Collection):</strong><br>
+          • Where are the players located?<br>
+          • Where are the players looking?<br>
+          • How are the players positioned?<br><br>
+          <strong>Prompt 2 (Final Prediction):</strong><br>
+          The ball has been removed from this {sport} image. Here are some observations:<br>
+          {context}<br><br>
+          The above information could help you infer the ball's location.<br><br>
+          Respond in the following format:<br>
+          Reasoning: &lt;Explain where the ball is likely located and why.&gt;<br>
+          Cell: &lt;What grid cell is the ball most likely located in? Respond with a label like F4.&gt;</p>
+        </div>
+      </div>
+    </div>
+
     <!-- Accuracy Placeholder -->
+    
+    <div class="subsection">
+      <h3 class="subsection-title">Humans outperform models in all sports and levels</h3>
+      <p class="subsection-text">Models are less accurate than humans in all sports and levels as shown by the accuracy plot below and the euclidean distances to the ground thruth are also very large.</p>
+    
     <div class="results-figure">
-      <img src="assets/results_accuracy_placeholder.png" class="results-img" alt="Accuracy Results Placeholder">
-      <p class="figure-caption"><strong>Figure:</strong> Accuracy across models vs. humans. (Replace with real results_accuracy.png)</p>
-    </div>
-
-    <!-- Euclidean Error Placeholder -->
-    <div class="results-figure">
-      <img src="assets/results_error_placeholder.png" class="results-img" alt="Euclidean Error Placeholder">
-      <p class="figure-caption"><strong>Figure:</strong> Mean Euclidean error with standard deviation. (Replace with real results_error.png)</p>
-    </div>
-
-    <!-- Distribution Similarity Placeholder -->
-    <div class="results-figure">
-      <img src="assets/results_wasserstein_placeholder.png" class="results-img" alt="Wasserstein Distance Placeholder">
-      <p class="figure-caption"><strong>Figure:</strong> Wasserstein distance between model guess distributions and human guess distributions. (Replace with real results_wasserstein.png)</p>
+      <img src="static/images/accuracy.jpg" class="results-img" alt="Accuracy Results Placeholder">
+      <p class="figure-caption"><strong>Figure:</strong> Accuracy across models vs. humans.</p>
     </div>
   </div>
+
+    <!-- Euclidean Error Placeholder -->
+    <div class="subsection">
+      <h3 class="subsection-title">Models and humans do not find the same sports difficult</h3>
+      <p class="subsection-text">Volleyball is the most difficult for models but humans find it medium difficulty this can explain that 
+        there are differences in how they reason about the task.
+      </p>
+    
+    </div>
+
+    <div class="subsection">
+      <h3 class="subsection-title">Models fail due to primitive heuristics</h3>
+      <p class="subsection-text">
+        The most commonly used heuristics are:
+      </p>
+      <ol style="margin-left: 2rem; margin-bottom: 1rem;">
+        <li style="margin-bottom: 0.5rem;"><strong>Center bias.</strong> While humans are also biased towards guessin near the center of the image, models are less exploratory and more likely to guess near the center. </li>
+        <li style="margin-bottom: 0.5rem;"><strong>Player proximity.</strong> When we drew bounding boxes around the players, we found that models guesses very often overlap with the player's bounding boxes and are also within it much more than humans. </li>
+        </ol>
+    </div>
+  
+  </div>
+
+
+
+
 </section>
 <!-- ================= RESULTS SECTION END ================= -->
 <!-- ================= QUALITATIVE EXAMPLES SECTION START ================= -->
 <section id="qualitative" class="section">
   <div class="container">
-    <h2 class="section-title">Qualitative Analysis</h2>
+    <h2 class="section-title">🤸🏾 Qualitative Analysis</h2>
     <p class="section-text">
       To better understand failure modes, we visualize model predictions alongside human guesses. Despite accurately describing scene elements in chain-of-thought prompts, models frequently disregard gaze direction, confuse player roles, or default to spatial heuristics such as center bias.
     </p>
@@ -251,17 +389,55 @@
       </div>
     </div>
 
-    <p class="section-text" style="margin-top: 24px;">
-      <em>The qualitative analysis above shows common failure modes in model predictions compared to human performance.</em>
-    </p>
   </div>
 </section>
 <!-- ================= QUALITATIVE EXAMPLES SECTION END ================= -->
 
+<section id="discussion" class="section">
+  <div class="container">
+    <h2 class="section-title"> 💬 Discussion</h2>
+    
+    <div class="subsection">
+      <h3 class="subsection-title">Key Findings</h3>
+      <p class="subsection-text">
+        Our results highlight fundamental limitations in current vision–language models when it comes to socially grounded object inference. Prompting strategies are insufficient to close the gap with humans, pointing to deeper issues in how models perceive and reason about social cues such as pose, and gaze.
+      </p>
+    </div>
+
+    <div class="subsection">
+      <h3 class="subsection-title">Future Directions</h3>
+      <p class="subsection-text">
+        Several future directions emerge from this work:
+      </p>
+      <ol style="margin-left: 2rem; margin-bottom: 1rem;">
+        <li style="margin-bottom: 0.5rem;"><strong>Architectural innovations.</strong> New model designs explicitly tailored to capture social reasoning in visual scenes may be required, as current architectures appear biased toward spatial heuristics rather than agent dynamics.</li>
+        <li style="margin-bottom: 0.5rem;"><strong>Broader domains.</strong> Expanding evaluation across additional sports and domains would test the robustness and generality of these findings.</li>
+        <li style="margin-bottom: 0.5rem;"><strong>Controlled environments.</strong> Moving beyond static images, 3D interactive settings (e.g., Unity simulations) would allow systematic manipulation of gaze, pose, and player configurations to probe whether models can adapt to counterfactual changes.</li>
+        <li style="margin-bottom: 0.5rem;"><strong>Counterfactual reasoning.</strong> Explicitly testing how models predict player positions given hypothetical ball placements (and vice versa) could reveal whether they are capable of reasoning beyond surface-level correlations.</li>
+      </ol>
+    </div>
+
+    <div class="subsection">
+      <h3 class="subsection-title">The Challenge of Social Reasoning</h3>
+      <p class="subsection-text">
+        It is worth noting that training a neural network to localize balls in images is not, by itself, a difficult task. What makes this benchmark distinctive is that success requires social reasoning under uncertainty: inferring hidden states from cues that humans naturally exploit. Addressing this challenge may require not just additional supervision but fundamentally different training objectives or architectures that embed social priors.
+      </p>
+    </div>
+
+    <div class="subsection">
+      <h3 class="subsection-title">Moving Forward</h3>
+      <p class="subsection-text">
+        The goal of this work is therefore not to provide a final solution, but to expose systematic blind spots in current models and to motivate progress on this problem. By releasing both our dataset and evaluation code, we hope to establish a foundation that the community can build upon in developing models with more human-like capacities for socially grounded inference.
+      </p>
+    </div>
+
+  </div>
+</section>
+
 <!-- ================= CITATION SECTION START ================= -->
 <section id="citation" class="section">
   <div class="container">
-    <h2 class="section-title">Citation</h2>
+    <h2 class="section-title">✏️ Citation</h2>
     <p class="section-text">
       If you find this benchmark or dataset useful in your research, please cite:
     </p>
@@ -271,7 +447,7 @@
       <pre id="bibtex-entry" class="bibtex-block">
 @misc{balamurugan2025spottheball,
   title     = {Spot The Ball: A Benchmark for Visual Social Inference in Sports Scenes},
-  author    = {Balamurugan, Neha and Wu, Sarah and Eyzaguirre, Adam and Chun, Adam and Gaw, Gabe and Gerstenberg, Tobias and Chris},
+  author    = {Balamurugan, Neha and Wu, Sarah and Eyzaguirre, Chris and Chun, Adam and Gaw, Gabe and Gerstenberg, Tobias},
   booktitle = {Fill in later},
   year      = {2025}
 }
@@ -295,7 +471,11 @@ function copyBibtex() {
 <footer class="footer">
   <div class="container">
     <p class="footer-text">
-      <em>“Best Things dwell out of Sight.” — Emily Dickinson</em>
+      <em>
+        “
+        <a href="https://allpoetry.com/Best-Things-dwell-out-of-Sight" target="_blank">Best Things dwell out of Sight.</a>
+        ” — Emily Dickinson
+      </em>
     </p>
     <p class="footer-links">
       <a href="https://huggingface.co/datasets/nehabalamurugan/spot-the-ball" target="_blank">📦 Dataset on HuggingFace</a> ·
@@ -305,6 +485,57 @@ function copyBibtex() {
   </div>
 </footer>
 <!-- ================= FOOTER SECTION END ================= -->
+
+<script>
+// Side navigation functionality
+document.addEventListener('DOMContentLoaded', function() {
+  const sideNav = document.getElementById('sideNav');
+  const navLinks = document.querySelectorAll('.side-nav-link');
+  const sections = document.querySelectorAll('section[id]');
+
+  // Smooth scrolling for navigation links
+  navLinks.forEach(link => {
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
+      const targetId = this.getAttribute('href').substring(1);
+      const targetSection = document.getElementById(targetId);
+      
+      if (targetSection) {
+        targetSection.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start'
+        });
+      }
+    });
+  });
+
+  // Update active navigation link based on scroll position
+  function updateActiveNav() {
+    let current = '';
+    sections.forEach(section => {
+      const sectionTop = section.offsetTop;
+      const sectionHeight = section.clientHeight;
+      if (window.pageYOffset >= sectionTop - 200) {
+        current = section.getAttribute('id');
+      }
+    });
+
+    navLinks.forEach(link => {
+      link.classList.remove('active');
+      if (link.getAttribute('href') === '#' + current) {
+        link.classList.add('active');
+      }
+    });
+  }
+
+  // Listen for scroll events
+  window.addEventListener('scroll', updateActiveNav);
+  
+  // Initial call to set active state
+  updateActiveNav();
+});
+</script>
+
 </body>
 
 
