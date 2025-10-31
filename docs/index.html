@@ -169,7 +169,7 @@
       <div class="pipeline-step">
         <h3 class="pipeline-step-title">2. Frame Selection</h3>
         <p class="pipeline-step-text">
-          Frames are filtered using CLIP similarity scoring to retain only visually informative scenes with a visible ball and players.
+          Frames are filtered using multimodal similarity to prompts toretain only visually informative scenes with a visible ball and players.
         </p>
         <div class="pipeline-step-image">
           <img src="static/images/original_pipe.png" alt="Frame Selection Process" style="max-width: 100%; height: auto; border-radius: 0px;">
@@ -180,7 +180,7 @@
       <div class="pipeline-step">
         <h3 class="pipeline-step-title">3. Ball Masking & Inpainting</h3>
         <p class="pipeline-step-text">
-          YOLOv8 identifies ball and player locations. The ball is removed and realistically filled using diffusion-based inpainting.
+          An object detector identifies ball and player locations. The ball is removed and realistically filled using diffusion-based inpainting.
         </p>
         <div class="pipeline-step-image">
           <img src="static/images/yolo.png" alt="Frame Selection Process" style="max-width: 100%; height: auto; border-radius: 0px;">
@@ -319,7 +319,7 @@
       <p class="subsection-text">Models are less accurate than humans in all sports and levels as shown by the accuracy plot below and the euclidean distances to the ground thruth are also very large.</p>
     
     <div class="results-figure">
-      <img src="static/images/accuracy.jpg" class="results-img" alt="Accuracy Results Placeholder">
+      <img src="static/images/accuracy.jpg?v=2" class="results-img" alt="Accuracy Results Placeholder">
       <p class="figure-caption"><strong>Figure:</strong> Accuracy across models vs. humans.</p>
     </div>
   </div>
@@ -328,21 +328,32 @@
     <div class="subsection">
       <h3 class="subsection-title">Models and humans do not find the same sports difficult</h3>
       <p class="subsection-text">Volleyball is the most difficult for models but humans find it medium difficulty this can explain that 
-        there are differences in how they reason about the task.
-      </p>
-    
-    </div>
+        there are differences in how they reason about the task. These differences can be explained by the following two heuristics.
 
     <div class="subsection">
       <h3 class="subsection-title">Models fail due to primitive heuristics</h3>
+      <div class="results-figure">
+        <img src="static/images/newprox.png" class="results-img" alt="Accuracy Results Placeholder">
+        <p class="figure-caption"><strong>Figure:</strong> Proximity to players across models vs. humans.</p>
+      </div>
       <p class="subsection-text">
         The most commonly used heuristics are:
       </p>
       <ol style="margin-left: 2rem; margin-bottom: 1rem;">
-        <li style="margin-bottom: 0.5rem;"><strong>Center bias.</strong> While humans are also biased towards guessin near the center of the image, models are less exploratory and more likely to guess near the center. </li>
-        <li style="margin-bottom: 0.5rem;"><strong>Player proximity.</strong> When we drew bounding boxes around the players, we found that models guesses very often overlap with the player's bounding boxes and are also within it much more than humans. </li>
+        <li style="margin-bottom: 0.5rem;"><strong>Center bias.</strong> Models and humans are both biased towards guessing near the center of the image, but models distribute their guesses more narrowly. </li>
+        <li style="margin-bottom: 0.5rem;"><strong>Player proximity.</strong> When we drew bounding boxes around the players, we found that models' guesses very often overlap with the player's bounding boxes and are also within it much more than humans. </li>
         </ol>
     </div>
+
+    <div class="subsection">
+      <h3 class="subsection-title">Models' textual reasoning uses pose more than gaze at lower prompting levels</h3>
+      <p class="subsection-text">Chain-of-thought prompts are more likely to improve models to reason like humans (about both pose and gaze evenly).
+      </p>
+
+      <div class="results-figure">
+        <img src="static/images/posegaze3.png" class="results-img" alt="Accuracy Results Placeholder">
+        <p class="figure-caption"><strong>Figure:</strong> Pose and gaze counts by model and level.</p>
+      </div>
   
   </div>
 
@@ -361,7 +372,7 @@
 
     <!-- Main Qualitative Analysis Image -->
     <div class="qualitative-main-image">
-      <img src="static/images/qualitative.jpg" alt="Qualitative Analysis Examples" class="qualitative-img-main">
+      <img src="static/images/qualitative_error.png" alt="Qualitative Analysis Examples" class="qualitative-img-main">
     </div>
 
     <div class="qual-grid">

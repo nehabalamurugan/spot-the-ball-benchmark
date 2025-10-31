@@ -371,7 +371,7 @@ body {
 /* Results Section */
 .results-figure {
   text-align: center;
-  margin: 3rem 0;
+  margin: 1rem 0;
 }
 
 .results-img {
@@ -379,6 +379,15 @@ body {
   height: auto;
   border-radius: 8px;
   box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.proximity-figure .results-img {
+  max-width: 50% !important;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+  border-radius: 0 !important;
+  box-shadow: none !important;
 }
 
 .figure-caption {
