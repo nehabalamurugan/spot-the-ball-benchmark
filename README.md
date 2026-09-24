@@ -2,7 +2,7 @@
 
 [![Paper](https://img.shields.io/badge/arXiv-2511.00261-b31b1b.svg)](https://arxiv.org/abs/2511.00261)
 [![Dataset](https://img.shields.io/badge/🤗-Dataset-yellow.svg)](https://huggingface.co/datasets/nehabalamurugan/spot-the-ball)
-[![Website](https://img.shields.io/badge/Website-Project%20Page-blue.svg)](https://nehabalamurugan.github.io/spot-the-ball-benchmark/)
+[![Website](https://img.shields.io/badge/Website-Project%20Page-blue.svg)](https://nehabalamurugan.com/spot-the-ball-benchmark/)
 
 Code and data for **[Spot The Ball: A Benchmark for Visual Social
 Inference](https://arxiv.org/abs/2511.00261)** (arXiv:2511.00261).
