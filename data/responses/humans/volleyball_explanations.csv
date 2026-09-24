@@ -1,0 +1,533 @@
+id,order,image,response
+1,1,4,Because that's where it looks like the ball is based on their hands.
+1,2,5,Because the player looks like they are about to hit the ball.
+1,3,9,Because that's where the player's attention is focused.
+1,4,10,Because it looks like the ball is being hit from that area.
+1,5,16,Because the player in white looks like they are about to hit the ball right there.
+1,6,17,Because the player in all blue looks like they are about to go for the ball there.
+1,7,25,Because both players look as though they are interacting with the ball in that space.
+1,8,44,No real strategy here - just took a guess.
+1,9,46,Because it is in between the two players who look like they're going for the ball.
+1,10,51,Because you can clearly still see the ball in this image.
+2,1,17,"It appeared the white shirt on the left may have just hit the ball and the blue shirt on the left has hands up to block, so I assumed the ball would be between them."
+2,2,21,#8 appears to be setting to the person to their left who is preparing to jump to spike.
+2,3,22,The server looks to be prepared to jump very high to serve.
+2,4,24,"#1 looks like he's about to set the ball for #6. In looking this again, I should have selected farther to the right."
+2,5,28,"the ball looks to have been bumped by the further person on the right.  in retrospect, i should maybe have selected farther left."
+2,6,31,every one is looking in that direction and #11 looks like he's about to bump or has recently bumped.
+2,7,33,This was tougher. the person at the top on the left might me setting and the person on the right by the net looks to be trying to block so I assume the ball is between the 2.
+2,8,36,8 looks to be setting for the next person to their left
+2,9,38,"the guy in the selected box is staring up like the ball is coming for him.
+"
+2,10,48,"the person closest to the net is staring up like the ball is coming for them
+"
+3,1,3,i looked at how the ppl were standing and were ther arms were moving too
+3,2,14,both girls are reaching so it seemed like the ball was close to be blocked
+3,3,18,the guy in the red is looking up at somthing and his hand is about to strike somthing
+3,4,22,based on the guy in the back the ball is in that area and everyone else is looking that way and dont look like there rushing to get the ball
+3,5,30,the one in red looks like he just hit the ball if you look at how he is positioned
+3,6,32,looking at everyones placement and the two in the middle you can tell its close to them
+3,7,33,everyone is grouped in one area or running that way
+3,8,38,the guy is looking up waiting others are looking at the same spot
+3,9,40,the guy is jumping for it
+3,10,49,everyones eyes are in the same area
+4,1,7,The setter is there
+4,2,9,the hitter is in the air there
+4,3,11,the middle guy is jumping
+4,4,14,both blockers hands collide there
+4,5,17,"the guy was following through, that's where the ball should be"
+4,6,21,the setter is about to hit the ball
+4,7,32,the gal is jumping to spike
+4,8,33,the outside hitter is jumping
+4,9,35,everyone is looking there
+4,10,52,the girl is spiking there
+5,1,1,because the player was  blocking the ball from coming at him
+5,2,5,the player are jumping up
+5,3,7,player is position of which it looks like they would have the ball
+5,4,18,cause the player is reaching for the net
+5,5,20,player has hand up
+5,6,21,players are reaching up to block ball
+5,7,25,players are reaching to block ball while other player has hand behind like throwing the ball
+5,8,30,players are centered and positioned like they are playing
+5,9,51,player is reaching for ball or blocking it
+5,10,52,ball is visible
+6,1,1,Defensive position of player in white with arms up.
+6,2,3,I guessed there due to the reaction of falling player with black sleeves.
+6,3,5,"The player is mid-serve, so the ball must be close."
+6,4,6,I guessed there because players seemed to be staring upward at something and reacting with defensive postures.
+6,5,9,I guessed there due to the defensive and offensive player actions at the net.
+6,6,10,I guessed there due to the player in white looking up and preparing to respond.
+6,7,18,I guessed there due to the player in red attempting to spike something over the net and due to the blue player reacting in a defensive posture.
+6,8,20,"The player appears to be in mid serve, so the ball must be above his head. He would throw the ball up to begin the serve."
+6,9,35,I guessed there due to player reactions. I am not sure I was correct.
+6,10,41,I guessed there due to the blue player's raised hands and the white players running towards the position.
+7,1,7,I made my guess Considering the direction the players were pointing to
+7,2,14,I made my guess observing the hand position of the two players
+7,3,19,I made my guess here observing the direction the players were facing.
+7,4,24,I made my guess considering the hand position of the players.
+7,5,25,I made my guess observing the hand position of the player jumping.
+7,6,26,"i made my guess here looking at the position the falling player made, it give an indication that the ball fell in her front."
+7,7,35,i made my guess here lookin at the hand direction of the players.
+7,8,46,I made my guess here by observing the hand position of the black player. It seems like he just push out the ball.
+7,9,50,I made my guess here by observing the hand position of the players.
+7,10,52,I made my guess here seeing clearly the ball position.
+8,1,3,all the players are looking in that direction
+8,2,9,The guy in the air looks like he hit the ball
+8,3,14,Both players look like they are trying to hit the ball
+8,4,16,The player seems to be spiking the ball
+8,5,32,Both players seem to try to hit the ball in that area
+8,6,33,some players are looking up to that area.
+8,7,40,The player looks to have spiked the ball in that area.
+8,8,41,most players are looking in that direction
+8,9,48,Players are looking in that direction and the player in white is waiting to hit the ball.
+8,10,50,The player in yellow looks to have hit the ball in that direction
+9,1,4,Because it looks like two players are jumping in that area.
+9,2,11,That's where all the players are.
+9,3,12,The guy in white is jumping in that area.
+9,4,17,Looks like player in blue is trying to block the ball.
+9,5,24,players are focused on that area.
+9,6,30,Looks like a serve from the red side.
+9,7,35,All players eyes seems to be focused on that location.
+9,8,44,I see man in white running to jump for ball in that area.
+9,9,50,I see man in yellow about to strike ball in that area.
+9,10,52,I see the ball.
+10,1,3,"where there eyes are looking and bodylanguage
+"
+10,2,5,player jumping up to hit
+10,3,10,players looking up and jumping up
+10,4,12,where back player is looking up with hands up
+10,5,14,because of both players jumping up at same time hands going same direction
+10,6,28,Again body language and where all players are looking
+10,7,39,players looking where I think ball is
+10,8,42,Player jumping up and looking up
+10,9,45,Guess on this with where some players are looking
+10,10,46,the interation with players from both teams with the ball
+11,1,3,Because of the players' positioning and their line of sight.
+11,2,14,Because of the players' 28 and 29 defending positioning.
+11,3,18,Because of the players' defending positioning.
+11,4,25,Because of the player 25 defending position and the opposing player's attacking posture.
+11,5,29,Because of the server's position.
+11,6,30,Because of the server's (in red) position.
+11,7,41,Because of the players' positioning and their line of sight.
+11,8,42,Because of the server's (in red) positioning.
+11,9,43,Because of the server's (number 32) positioning.
+11,10,51,Because the ball was shown in the image.
+12,1,2,The hand placement and the direction the guy in red is looking.
+12,2,6,The players are looking up and have their hands raised ready to hit the ball.
+12,3,12,The guy in white is looking up at the area and has his hand raised to hit the ball.
+12,4,26,I think the girl fell after hitting the ball and followed the natural path the ball might take.  I looked at the direction the others were looking as well.
+12,5,27,Everyone is looking in that area. The one player is jumping under that area to hit the ball.
+12,6,31,It looks like the guy in the lower right may be serving the ball. I just guessed by looking at body placement of the other players.
+12,7,41,This is the area the players seem to be concentrating on.
+12,8,44,The players on both teams are looking up towards this general area.
+12,9,45,"This seems to be where they are looking, although this one is pretty difficult to tell."
+12,10,46,The ball looks like it is headed towards the referee. He has his arm extended to avoid being hit.
+13,1,1,"thats were everyone seems to be looking or reaching for
+"
+13,2,2,"hands are raised to this point
+"
+13,3,8,"everyone is looking this direction
+"
+13,4,10,the high jumper is aiming to hit from this area
+13,5,16,"white suit jumper is ready to strike from this area
+"
+13,6,23,"thats werer it looks everyone is looking
+"
+13,7,32,"striker is swingin in that direction
+"
+13,8,35,"looking that direction
+"
+13,9,36,"looking in that dirction
+"
+13,10,44,"seem ato be looking in that area
+"
+14,1,4,Players on both teams were jumping at the net to try and hit something.
+14,2,6,"All heads were turned in the same direction, and the people closest to those spaces were raising their hands, as if to hit a ball."
+14,3,9,"It looked as if the person on the left was jumping up to hit the ball, and the other players were waiting to see where it would land."
+14,4,28,"Players were looking up in that direction, clearly in anticipation."
+14,5,33,The body language of all the players is pointed in that direction. Heads are looking up.
+14,6,36,"The red players are all congregating to that spot, and the blue players are watching from across the net."
+14,7,40,The player in white on the left is ready to hit something in that general area.
+14,8,50,The players near that spot are jumping and running towards it in anticipation.
+14,9,51,The ball is in the photo!
+14,10,52,The ball is in the photo!
+15,1,1,by his hands
+15,2,5,dark red square
+15,3,6,middle square on left
+15,4,7,upper square on right
+15,5,12,lower square on left
+15,6,13,by man in middle in blue
+15,7,21,red team by hands
+15,8,33,upper square on left
+15,9,48,upper square on right
+15,10,49,middle square on right
+16,1,5,"I checked the position of the player, ready to hit the ball hard"
+16,2,10,There's a player high targeting the ball
+16,3,11,"I can see where the players are focused looking at, meaning that's the position of the ball"
+16,4,19,Players are focused on that specific position
+16,5,26,That player was trying to make a save
+16,6,28,"The ball is high on top, with the player ready to spin it hard"
+16,7,37,The player with jersey number7 is hitting the ball
+16,8,39,The players are looking active at the ball position
+16,9,40,"The player is high in air, spinninng the ball"
+16,10,42,The player's action shows that they are tring to receive the ball from a spin
+17,1,13,"I made the guess based on looking at where the players were gazing, and also the way that they were standing. In other words if they look like they were poised to hit the ball that suggested me to me that the ball was very close to them."
+17,2,17,It looked to me like one of the players -- the one that has both arms extended over his head --  had just hit the ball or was about to hit the ball
+17,3,21,It appeared to me this ball was up in the air above the net because players on both sides of the net were looking upwards and were poised as if to hit it.
+17,4,24,It seemed to me that those players that are in those squares were the ones who were closest to the ball. I wasn't entirely certain exactly which square it was but I did believe that the ball was somewhere right in that region because those players looked like they were poised to hit the ball.
+17,5,25,"I was very uncertain about this one. I think that the ball was probably right above the player whose number I think looks like 25, but I wasn't really sure. I thought there was also a possibility that it was that lower square. This one was very ambiguous"
+17,6,41,"It looked to me those three players who are right near those squares had their arms extended as if the ball was within their reach, and so this has led me to believe that it was probably one of those squares. I thought it was most likely the one that I double clicked"
+17,7,44,In this image it appeared to me that the players were looking upward. I really didn't know how high up the ball was and so that's why I clicked those squares but I thought it was somewhere in that region.
+17,8,46,"I was very uncertain about this one but I thought that maybe the player on the left side was  poised to hit the ball. And it seemed to me that the players that we see in the lower center portion of this photo were looking in that direction -- of the squares that I clicked on, I mean"
+17,9,49,I made that decision because it seemed to me that players were looking in that direction and were poised to hit the ball. I was very uncertain about this one however.
+17,10,51,That one seemed rather obvious because the players were looking directly above in exactly that direction. I didn't really see any other strong possibilities this one seemed more or less straight forward.
+18,1,2,the angle of both hands and the exact places they were focused on.
+18,2,4,The angle of the player's hands
+18,3,5,the exact area they were staring at.
+18,4,9,The area they were all focused on.
+18,5,22,The area most of the players were focused on.
+18,6,25,The angle of the four main players.
+18,7,27,the location of both players and the angle they were throwing at.
+18,8,34,The location of their hands.
+18,9,36,The location they were staring at
+18,10,47,The physical position of the players
+19,1,1,The player is in the air with his hands up
+19,2,2,Players from both teams are reaching there
+19,3,7,Player has hands up in the air.
+19,4,16,Most of the players are looking there.
+19,5,21,The player has their hands up.
+19,6,30,It appears they are serving the ball.
+19,7,33,Many players are looking that way.
+19,8,34,The player looks like they are trying to hit the ball.
+19,9,46,I really had no idea where the ball was.
+19,10,49,Most players are looking that direction.
+20,1,1,"I guessed that the ball was there because the player in white, positioned immediately to the right of the player wearing jersey number 21, appeared to be reaching in that direction, suggesting the ball was nearby."
+20,2,3,"All the players were facing and focusing in the same direction, which suggested that’s where the ball was located."
+20,3,5,"The player on the left appears to have just hit the ball, and the players on the right look like they are preparing to return the shot. Their body positions and focus suggest that the ball is in motion between them."
+20,4,15,"The player wearing black jersey number 5 or 6 (not sure) appears to have just hit it. Their body posture and follow-through suggest recent contact with the ball, and the other players seem to be reacting to that action."
+20,5,23,"The elevation of where the players in red are looking suggests the position of the ball. Their gaze is directed upward at a similar angle, which indicates the ball is likely in the air at that point in play."
+20,6,31,"The ball looks like it's just over the net because both teams appear to be in a ready position, anticipating a return. Their body language and focus suggest the ball is in a critical spot where either side could make a play."
+20,7,36,"The players in red look like they are about to jump to return the ball, suggesting it's coming over the net and they’re preparing to block or hit it back."
+20,8,37,"The player in the black jersey, number 7, appears to have just hit the ball, and all the other players are looking in the same direction, upward in the air, which suggests the ball is currently in play and airborne."
+20,9,46,"The player in black in the left foreground appears to have just hit the ball, while the player in white on the right looks like they are preparing to defend, suggesting the ball is moving from left to right."
+20,10,47,"Player number 7 in the white jersey appears to have just hit the ball, and the players in blue seem to be preparing to defend, suggesting that the ball is airborne in that position."
+21,1,6,THE MIDDLE
+21,2,14,ABOVE THE NET
+21,3,16,ABOVE THE NET
+21,4,22,WITH THE SERVER
+21,5,27,MAN JUMPING
+21,6,29,WOMAN JUMPING
+21,7,36,PLAYERS MOVING
+21,8,45,DON'T KNOW
+21,9,46,PLAYERS BLOCKING
+21,10,49,PLAYERS STANCE
+22,1,3,Because of where their hands were and where they are looking.
+22,2,9,The person on the left is facing to the right so I feel like the ball is going up.
+22,3,12,The person on the left's hands are in the air so I think the ball is above him.
+22,4,13,I think the ball is above the people the person squatting is looking at.
+22,5,21,I think it might be above the person whose hands are up near the neat that everyone is looking at.
+22,6,24,This one was a wild guess.
+22,7,27,Several people are looking that direction.
+22,8,37,I couldn't tell so this one was also a wild guess.
+22,9,41,I placed this one near hands.
+22,10,46,Also near several hands.
+23,1,1,"I could see a player jumping with their hands straight up in the air, it looks like they are about to reach the ball."
+23,2,2,Somebody's hands are stretched straight up and it looks like they are just about to reach the ball
+23,3,9,"A person in the white shirt on the left is facing towards the right with his hands up and it looks like the ball is coming towards him, but some of the other players are looking slightly to the right like it has not yet reached the player on the left in the white shirt."
+23,4,23,A player in red near the bottom is staring almost straight up indicating they are looking at the ball.
+23,5,26,Everybody seems to be staring towards the center just above the bottom edge of the net and the player that is down has stumbled as they were reaching towards the ball.
+23,6,27,"A player in a white jersey has his hands over the net expecting the ball to come straight towards him, but there are also players looking slightly towards his right"
+23,7,37,"A player in black on the bottom left corner with number seven has his hand back like he's getting ready to hit the ball that has not yet arrived, or he is hitting it and it has already left his hands"
+23,8,44,"A player in white has his legs stretched out like he's getting ready to jump up to hit the ball, so I guess the ball is above him and pretty close"
+23,9,47,"A player in a white jersey Number seven looks like he has just struck the ball, so it looks like it is very near him and just above. A player in blue Number two is waiting for the ball to come to him so he can defend it as it comes over the net"
+23,10,48,"The players are all staring pretty high up, one player in white closest to the net is staring straight up, so I assume that's where the ball is"
+24,1,5,The girl was approaching the ball and it looked like she was going to hit it.
+24,2,6,it looked like that's where the setter was getting ready to receive the ball
+24,3,19,it looked like the ball was in its highest trajectory for the setter
+24,4,22,The server looked like they were about to serve the ball.
+24,5,27,The player looked like they were going to hit the ball in the areas
+24,6,29,The hand is pulled back to hit the ball
+24,7,34,the hand is pulled back to hit the ball
+24,8,44,the setter is looking back to where they set the ball for the attacker. The ball is still high.
+24,9,46,The person jumping just hit the ball and there was a blocker setting up to block
+24,10,47,The person in blue and white was about to hit the ball.
+25,1,4,because of the way the players are jumping
+25,2,6,because of the way that they are standing
+25,3,18,could see the ball a little bit
+25,4,24,can see the ball
+25,5,25,the body the players are jumping
+25,6,29,can see the ball
+25,7,32,can see the ball
+25,8,36,the way the players are running
+25,9,38,the way the players are so close yo the net
+25,10,41,the jump
+26,1,2,The position of the hands in the air.
+26,2,4,"Two people were up in the air, so I assumed the ball was between them."
+26,3,5,"It looks like one player is striking the ball, so I thought it would be in these spots as the player has hit the ball."
+26,4,8,"It looks as though two players possibly hit the ball, and these spots could have been it."
+26,5,28,"On the right, it looks like a player was waiting to hit the ball."
+26,6,30,It looks like the player has stricken down the ball.
+26,7,31,"It appears that the player has hit the ball, and the other team is waiting for it."
+26,8,36,It looks like the blue team is waiting in that position for the ball.
+26,9,39,"It appears that the player has hit the ball, and the red team is about to hit it back."
+26,10,48,A man on the white team looks as though he is waiting for the ball that is in the air.
+27,1,8,Looks like the blue team is about to receive the ball and set up for a spike
+27,2,18,Ball is coming down towards the red player who is about to hit it over the net.
+27,3,21,Red team is setting up for a spike. Red player closest to the net has popped it up for the red player running towards it for a spike
+27,4,22,Red player is getting ready to serve the ball. Blue team are in their positions waiting to receive.
+27,5,30,Red player is serving the ball. Red team is in position but have moved to match the white team's positions.
+27,6,33,Blue player on white team is moving to pop the ball into the air for another player to return it
+27,7,37,All attention is in that area. Player on far right looks like he's going to return the ball with a hard hit. Player closest to net looks like he's spotting the ball in case he needs to help out.
+27,8,38,White team player in middle is looking up very high to bump the ball up to the forward row to spike the other team
+27,9,42,Red player on back far right has hit the ball over and it's heading towards the far right player on the white team
+27,10,50,Yellow team has hitting the ball over to blue team. All eyes are looking in that upward direction above the 2 blue players' heads.
+28,1,19,I could see the player on the red team looking up
+28,2,21,I assumed the ball was very close to the player who had their hands up.
+28,3,34,The player on the right appears to be in the process of spiking the ball
+28,4,35,The player with their hands up looking up was the telltale sign for me here.
+28,5,37,Two players were keenly eyeing the area that I figured the ball was it.
+28,6,42,"The player in red is in an action motion, suggesting the ball is very close in proximity to him.."
+28,7,43,the player in blue appears to be serving
+28,8,48,The player looking straight up appears to have the cleanest visual line to the ball
+28,9,50,The player on the yellow team is in very close proximity to the ball
+28,10,51,You can see the actual ball here.
+29,1,10,I made a guess of the position of the ball because the blue player seems to be jumping in an attempt to give a spike.
+29,2,11,The red team is leaping to block and the two teams are checking the same point above the net and the implication is that the ball is there.
+29,3,12,"The white is jumping up to hit with the arm pointing to hit and the blockers are moving, hence it is situated just over the net between the white players."
+29,4,14,"The two blockers both have their arms straight out and they are looking up, some indication that the ball is right above their hands, or between their hands."
+29,5,15,The black team player is leaping in one arm extended and the eyes looking up and others are looking at that place indicating that the ball is above his hand.
+29,6,29,"The right player is jumping to take a spike, therefore, other players are looking at the same place above the net hence the ball should be in the air at that point."
+29,7,31,"I guessed it there because the play of the white team has its player jumping to hit up with his arms and the eyes in the game ball, and there are defense men in position under the net."
+29,8,38,"The white team player jumps up spiking; the other red players are blocking and jump; therefore, the ball is upper near the net in the area."
+29,9,41,"I guessed at that point because the black blocker is jumping, with the arms up and several players are paying attention to the position just above the net."
+29,10,48,"My guessing location was there as the red player is jumping to spike and the blockers are charging the net to block something, and everyone is watching this corner."
+30,1,3,Because thats where most were looking.
+30,2,9,Because everyone was jumping and looking in that area.
+30,3,12,Because that guy is getting ready to hit the ball.
+30,4,26,I think that woman fell trying to reach it so it should be in that area.
+30,5,29,Thats where they are looking and getting ready to hit.
+30,6,32,They are getting ready to hit the ball there.
+30,7,35,It looks like thats where they are looking.
+30,8,38,The guy is getting ready to hit the ball.
+30,9,41,Thats where they're looking and getting ready to hit.
+30,10,42,That guy is getting ready to spike it.
+31,1,3,Follow the gaze of majority of players.
+31,2,4,"The ball is clearly above the players, who are jumping high on both sides."
+31,3,11,"The ball appears to be at eye level, judging by everyone's line of sight."
+31,4,12,"Judging by everyone's gaze, it seems a particular player jumped up."
+31,5,17,I clearly saw the ball in that particular player's hands.
+31,6,18,It looks like the player in the red jersey is hitting the ball.
+31,7,21,As indicated by everyone's line of sight.
+31,8,22,The player in the red jersey at the back is sprinting toward the ball.
+31,9,25,As indicated by everyone's line of sight.
+31,10,38,As indicated by everyone's line of sight.
+32,1,7,"it was in the general area based on where people were looking, perhaps a square below is another possibility of the location of the ball."
+32,2,13,"the general direction of where people were looking, it was tough one to decide."
+32,3,14,"both teammates had their hands in a certain area, indicating the that the ball is nearby."
+32,4,26,"The teammate looks like she was trying to go toward the ball which was on it's way down near the floor, or the ball was about to go up after she saved it."
+32,5,27,The general direction of eyes in that area and the guy looked like he was serving the ball.
+32,6,37,It appeared the guy was served the ball and the general direction of players are looking in that area.
+32,7,42,The teammate was about to hit the ball since he jumped and other teammates are looking in that general direction.
+32,8,43,"The player was about to serve the ball since she's in the air, the ball should be somewhere around there."
+32,9,49,All players were looking in that general direction so i guessed the ball was in that area.
+32,10,50,"Player was about to serve the ball since he jumped, many players are looking in that direction."
+33,1,8,two directions of attention toward the center
+33,2,10,responding to trajectory
+33,3,11,guessing center activity
+33,4,14,hands close together
+33,5,17,guessing response
+33,6,26,everyone looking at the dive
+33,7,27,leap and hand position
+33,8,39,center activity
+33,9,41,head angles
+33,10,48,head angles
+34,1,12,Because of the position of the hands and gaze of the eyes of the player jumping up in the middle of the area
+34,2,13,That is where both men in blue are looking
+34,3,17,I don't know - this one had too many possibilities
+34,4,19,Multiple players are looking at that spot
+34,5,20,I think this is where the plaayer is aiming to hit
+34,6,24,This is where the ball would be if he was setting up player 16 for a play
+34,7,32,two players are converged in this space as if they just had contact with the ball
+34,8,44,One player looks like he is about to jump up into this spot to hit the ball
+34,9,48,Two players are looking up in this direction
+34,10,51,The ball is visible in this image
+35,1,1,Because that's where the players' eyes seem to be focused.
+35,2,8,The players' eyes seem to be focused there.
+35,3,20,Because the player who jumped to hit the ball has his hand pointed in that direction.
+35,4,24,The players' eyes were focused in that direction.
+35,5,40,The player who jumps to hit the ball positioned in that direction.
+35,6,41,The players' eyes focus in that direction.
+35,7,42,The player who jumps to hit the ball has his hand positioned in that direction.
+35,8,45,Players' eyes seem to be focused in that direction.
+35,9,46,The player who jumps to hit the ball has his hand positioned in that direction.
+35,10,51,The ball is quite visible in one of the boxes.
+36,1,2,that is where the most hands are reaching
+36,2,8,that is where the most eyes are looking
+36,3,22,Players' hands seem to be reaching there
+36,4,27,Players' hands seem to be reaching there
+36,5,31,Players' hands seem to be reaching there
+36,6,40,Players' hands seem to be reaching there
+36,7,43,Number 32 seems to be hitting a ball there
+36,8,50,that is where the most hands are reaching
+36,9,51,the ball is actually visible
+36,10,52,the ball is visible
+37,1,2,hand position
+37,2,15,hand position
+37,3,19,hand position
+37,4,24,hand position
+37,5,27,hand position
+37,6,28,focus of players
+37,7,29,hand position
+37,8,32,hand position
+37,9,36,player posture
+37,10,51,you can see ball
+38,1,5,"I guessed there because the players’ eyes and body positions suggest the ball is mid-air there.
+"
+38,2,6,"I guessed there because the players’ eyes and body positions suggest the ball is mid-air there.
+"
+38,3,10,"I guessed there because the players’ eyes and body positions suggest the ball is mid-air there.
+"
+38,4,14,"I guessed there because the players’ eyes and body positions suggest the ball is mid-air there.
+"
+38,5,15,"I guessed there because the players’ eyes and body positions suggest the ball is mid-air.
+"
+38,6,23,"I guessed there because the players’ eyes and body positions suggest the ball is mid-air.
+"
+38,7,27,"I guessed there because the players’ eyes and body positions suggest the ball is mid-air there.
+"
+38,8,37,"I guessed there because the players’ eyes and body positions suggest the ball is mid-air there.
+"
+38,9,41,"I guessed there because the players’ eyes and body positions suggest the ball is mid-air.
+"
+38,10,45,"I guessed there because the players’ eyes and body positions suggest the ball is mid-air.
+"
+39,1,3,"I look at the position and mouvements of the players specially the strikers and the defenders.
+Their eyes and hands direction"
+39,2,4,"I look at the position and mouvements of the players specially the strikers and the defenders.
+Their eyes and hands direction"
+39,3,19,"I look at the position and mouvements of the players specially the strikers and the defenders.
+Their eyes and hands direction"
+39,4,21,"I look at the position and mouvements of the players specially the strikers and the defenders.
+Their eyes and hands direction.
+Here , it looks like the ball was displayed in the picture"
+39,5,28,"I look at the position and mouvements of the players specially the strikers and the defenders.
+Their eyes and hands direction"
+39,6,43,the ball was shown in the picture.
+39,7,44,"I look at the position and mouvements of the players specially the strikers and the defenders.
+Their eyes and hands direction"
+39,8,47,"I look at the position and mouvements of the players specially the strikers and the defenders.
+Their eyes and hands direction"
+39,9,48,"I look at the position and mouvements of the players specially the strikers and the defenders.
+Their eyes and hands direction"
+39,10,52,I can very well see can the ball
+40,1,3,it just looked liked where it would be
+40,2,7,because the guy had his hand up like he was hitting it
+40,3,11,it looked like where it was
+40,4,15,because the guy was jumping up with his hands up like he was trying to stop it
+40,5,19,they were looking up at that spot
+40,6,25,his had was up at that spot like he was getting ready to hit it
+40,7,36,they were looking at that spot
+40,8,39,they were looking at that spot
+40,9,46,his had was at that spot like he was hitting it
+40,10,48,he was looking up at that spot
+41,1,5,"because it appears to be the focal point of the volleyball action, where players are actively engaged near the net, which is a common spot for the ball during a play."
+41,2,8,"because it is near the net where the players are actively engaged, suggesting a potential spike or block."
+41,3,16,because it is near the net where players are positioned for a spike or block.
+41,4,26,"The player is diving towards it, indicating an attempt to save or reach the ball."
+41,5,27,Because it is near the net where players are positioned for a potential spike or block.
+41,6,33,"Because the player in white is jumping with their arm up like they are about to hit the ball, and the other players are looking in that direction."
+41,7,40,"because the player in white is jumping with their arm raised like they are about to hit or set the ball, and the players in red are also jumping to block, looking in that direction."
+41,8,46,"because the player in black is jumping and swinging their arm like they just spiked the ball, and the players in white are jumping to block it in that direction."
+41,9,50,"The ball  is near the net where players are actively engaged, suggesting a potential spike or block"
+41,10,51,Because it is near the net where a player is actively spiking.
+42,1,2,Because of the where the players hands are.
+42,2,4,Because of the where the players hands are.
+42,3,8,Because of the where the players hands are.
+42,4,14,Because of the where the players hands are.
+42,5,25,Because of the where the players hands are.
+42,6,27,Because of the where the players hands are.
+42,7,28,Because of the where the players hands are.
+42,8,29,Because of the where the players hands are.
+42,9,42,Because of the where the players hands are.
+42,10,52,Because of the where the players hands are.
+43,1,5,It seems everyone is looking in that direction
+43,2,8,It seems everyone is looking in that direction
+43,3,18,It seems everyone is looking in that direction
+43,4,20,It seems everyone is looking in that direction
+43,5,21,It seems everyone is looking in that direction
+43,6,27,It seems everyone is looking in that direction
+43,7,28,It seems everyone is looking in that direction
+43,8,43,It seems everyone is looking in that direction
+43,9,48,It seems everyone is looking in that direction
+43,10,52,It seems everyone is looking in that direction
+44,1,10,It looked like it was going to be spiked as it came over net or was just spiked and other team getting ready to block.
+44,2,16,It looked like the white player was going to spike or just spiked the ball and other team watching that player and area
+44,3,22,It looked like the red player in back was getting ready to serve the ball or backed up to meet the ball before drops in bounds.
+44,4,23,IT looked like the two front red players were positioning themselves under it to set it up or spike it over when it descends.
+44,5,30,This looked like the red player was throwing ball up or preparing to meet it on a serve.
+44,6,32,This looked like the red/white team players were setting up to spike the ball over top of net while other team was setting up to block.
+44,7,33,It looked like the white shirts were waiting fof ball to lower so they could set up up and spike it over.
+44,8,39,It seemed like the ball was coming from the white/blue side and the red were trying to meet it as it drops so they can spike it back over.
+44,9,48,It appears that one of the white/blue team is looking upwards waiting for the ball to come over/down to set it up as the other players on white team seem to be moving forward to help spike it over or at least meet it.
+44,10,49,The entire white team appear to be looking up in that area in anticipation of the ball coming down as they get in position to set up and send it back over to red.
+45,1,3,"the players gaze + the one player looks like he's doing a bump
+"
+45,2,15,the player is setting + the gaze of the players
+45,3,18,the player on the left is spiking and the player on the right it setting and this looks like where the ball would be in this play naturally. Also the photoshop looks like it was maybe not great so the blurry hands made me think the ball was probably there
+45,4,26,it looks like the white team is celebrating and it looks like the blue player dove and missed. this one was a tough one but i guessed that the ball would be on the court since they likely missed it
+45,5,29,looks like the player is spiking the ball and the other team's gaze of the players is likely where the ball is
+45,6,31,looks like the white player just spiked and the blue/black team is getting ready to or is blocking
+45,7,37,looks like this player is about to spike the ball
+45,8,42,looks like this player is about to spike the ball
+45,9,44,i think this player is serving so the ball is likely in the air above the player
+45,10,49,the player's gaze--it was tough to figure out what was going on in this picture
+46,1,1,A block in place
+46,2,2,Possible ball travel
+46,3,11,Charging players
+46,4,12,Active players in area
+46,5,16,Serving position of player
+46,6,26,Arms action in tandem
+46,7,27,All eyes on this area
+46,8,30,Multiple positioning players
+46,9,40,Possible travel trajectory of ball
+46,10,41,Players anticipating ball move
+47,1,1,analyze the trajectory of the ball
+47,2,10,the ball position is clear
+47,3,15,analyze the trajectory of the ball
+47,4,20,is clear position
+47,5,25,I see the ball
+47,6,30,the ball is clear
+47,7,35,the position is clear
+47,8,37,the ball is clear position
+47,9,41,the ball is up
+47,10,44,the ball is clear
+48,1,2,Where people are reaching
+48,2,7,Action towards that area
+48,3,10,Everyone looking towards the area
+48,4,13,everyone looking towards the area
+48,5,14,Downward motion of hands
+48,6,17,defenders reactions
+48,7,22,everyone looking towards the area
+48,8,27,everyone looking towards the area
+48,9,46,action towards the area
+48,10,50,action toward the area
+49,1,1,It looked like it was just spiked and heading for the man with his hands straight up
+49,2,7,It looked like it was straight up and the man jumping with his hands up was about to hit it.
+49,3,9,22 hit it to the man jumping on left
+49,4,10,It was coming down to man jumping to spike it.
+49,5,13,Everyone was looking low.
+49,6,16,It had just been spiked by white
+49,7,26,Girl had just hit it awkwardly and everyone was following the ball's path.
+49,8,29,White was jumping up anticipating to spike.
+49,9,34,Going for the spike.
+49,10,47,Going for the spike.
+50,1,4,The point of attention was in the center above the net based on the two players jumping.
+50,2,8,It looked like both players on the blue team were looking to pass at each other.
+50,3,10,It almost looked like the ball went out of bounds because everyone was looking to the side of the court.
+50,4,12,Everyone was looking at the player in white on the top left of the screen. He also looked like he was in motion to hit the ball.
+50,5,20,"I chose two squares near the man that was in hitting motion, and the other square that could have been possibly blocked by number 6 in red."
+50,6,27,"Number 8 in white was the only one in jumping motion, so I assumed he was closest to the ball."
+50,7,35,"The player in white and red looked like he was in motion to pass or set up a teammate with his arms up in the air, so I guessed the ball was near him."
+50,8,36,"The two players in red near the net seemed to be communicating or passing, so I assumed the guy closest to the net hit the ball and the other player ran up to receive his pass."
+50,9,39,"Honestly in this case it was a best guess. Everyone seemed focus on the 2 players in red, so I picked areas where the ball could be if hit."
+50,10,40,"The player in white is in a clear spiking motion, so I chose the squares near him and his defenders who could have blocked or received the ball."

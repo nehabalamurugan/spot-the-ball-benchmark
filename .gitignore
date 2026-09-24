@@ -1,0 +1,14 @@
+# Credentials -- ENV.md asks contributors to create this locally
+.env
+*.pem
+*-service-account*.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store

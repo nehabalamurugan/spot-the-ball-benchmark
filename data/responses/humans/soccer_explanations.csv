@@ -1,0 +1,501 @@
+id,order,image,response
+1,1,3,"I guessed the ball was there because the player in white is extending his leg and focusing in that direction, while the player in red is also actively engaging, suggesting the ball is between or just ahead of them in that region."
+1,2,24,I guessed the ball was there because the player in black and white is actively kicking and all nearby players are focused on that area.
+1,3,44,I guessed the ball was there because the player in white is actively kicking and all nearby players are focused on that area.
+1,4,45,I guessed it.
+1,5,56,I guessed the ball was there because the player in white is actively kicking and all nearby players are focused on that area.
+1,6,66,I guessed the ball was there because the player in red is actively kicking and all nearby players are focused on that area.
+1,7,73,I guessed the ball was there because the player in red is actively kicking and all nearby players are focused on that area.
+1,8,190,I guessed the ball was there because the player in white is running directly toward that area with his eyes focused downward.
+1,9,277,"I guessed the ball was there because the player in red is actively kicking and looking downward, suggesting close ball control in that area."
+1,10,312,The guess was likely based on the players’ eye lines and body positions converging near that area.
+2,1,0,He is looking directly down at it.
+2,2,4,It seemed like everyone was looking in that direction.
+2,3,13,They all seemed like spots the ball could go.
+2,4,30,It seemed like the spot everyone was looking at.
+2,5,45,It's possible the goalie was keeping an eye on it coming at him.
+2,6,212,Everyone is turned to that spot.
+2,7,309,The guy in front is looing directly down at it.
+2,8,354,The guy in red is looking straight ahead.
+2,9,371,The guy in front is looking directly down at it.
+2,10,347,The ball is right there.
+3,1,3,It looks like they are fighting for position to receive so I assume that it is close
+3,2,31,Both players are sprinting to this spot and the other players are looking there
+3,3,36,It looks as though he received the ball
+3,4,46,The ball is on the penalty spot
+3,5,56,"I wasn't sure on this one, so I just put the ball in the space"
+3,6,78,The ball was past the keeper
+3,7,94,Where everyone is looking
+3,8,223,The ball is in the air still but not too high
+3,9,354,Not sure where so went with a central option
+3,10,371,Fighting for position so ball is close
+4,1,3,Player in white jersey looked like he was trying to trap and stop the ball.
+4,2,4,I based my guess on the angle of eye contact for the closest player in the red jersey and the two players in white jerseys.
+4,3,5,These guesses were mainly deduced from the eye contact and running direction
+4,4,21,The action and focus seemed to be somewhere around here. I could have been wrong or underestimated how fast they were actually moving; in that case the ball would lead considerably more.
+4,5,31,"Looking back, I think this was a bad guess and the ball should have been guessed to be a little further ahead. But my main reason for guessing the places I did, is the eye and movement focus of the players."
+4,6,46,"Player in white jersey is looking down at the ball, I imagine?"
+4,7,62,Focus and directional continuity of the players lead me to anticipate the ball being in this vicinity.
+4,8,78,This guess was based strictly on eye direction and focus.
+4,9,79,The goalkeeper seems to have his focus in this area.
+4,10,371,"The head, neck and body alignment of the players making contact, seems to be focused in these areas."
+5,1,2,I see the ball at that angle
+5,2,24,i feel it around that angle
+5,3,46,the ball is there
+5,4,62,it over that angle
+5,5,79,that's the direction of the ball
+5,6,154,it over there
+5,7,224,the ball is at that direction
+5,8,245,he cleared the ball at that angle
+5,9,389,the ball is around that angle
+5,10,464,the ball is in front of the player
+6,1,31,It seems to be the direction the player is running
+6,2,39,It looks like he is mid kick in the picture
+6,3,45,It was a total guess
+6,4,53,I assumed they would be the ones running with the ball
+6,5,62,It looks like these players are involved with the ball
+6,6,71,The player looks like he is kicking the ball
+6,7,78,The players are seeming to be looking this way
+6,8,226,It looks like this player may be kicking the ball
+6,9,309,This player looks to be dribbling the ball
+6,10,347,The ball is visible in the photo
+7,1,0,The way the kickers leg and foot are
+7,2,9,where the kickers leg and foot are
+7,3,30,Where the goalie is looking
+7,4,32,where the kickers foot is
+7,5,44,where everyone is looking
+7,6,79,where the goalie is looking
+7,7,154,where the kickers are
+7,8,224,where the goalie is and the kicker
+7,9,226,where the kicker is
+7,10,245,where the kickers foot is
+8,1,36,the foot position looked like he was controlling a ball
+8,2,39,looks like a pass to 23
+8,3,56,everyone is focusing on that point
+8,4,66,everyone is looking at that spot
+8,5,71,body placement
+8,6,217,he looks like he i about to shoot the ball
+8,7,223,that's where everyone is focused
+8,8,230,the body placements show that the ball is in that spot
+8,9,371,they are struggling for the ball
+8,10,389,everyone is looking towards that spot
+9,1,0,the player was shooting so the target was near
+9,2,4,the player's leg was too near
+9,3,12,it looked like the defender was clearing the ball
+9,4,21,the defender was clearing the ball out of range
+9,5,39,it was in between the two defenders
+9,6,79,the goalkeeper side of view
+9,7,94,all the players in the photo were heading towards the same direction.
+9,8,230,the defender and attacker ran to the same region
+9,9,291,the striker was shooting
+9,10,389,the players were quite relaxed and one was in ball possesion.
+10,1,0,Because of the position of the player Son
+10,2,4,Because of the direction the players were looking at
+10,3,24,Because of the movement of the player
+10,4,32,Because of the player movement
+10,5,230,Because of  the player direction
+10,6,245,Because of MO Sallah position
+10,7,250,Because of the facial expression of the player
+10,8,309,Because Haland is left footed and positioned to strike
+10,9,389,Because of player position
+10,10,464,Because of player position
+11,1,4,i imagined two players in white were in possession of the ball and the red player was attacking thus pinpointing its possible location.
+11,2,5,the white players seemed to be making a run hence hig probability he had the ball and for on to make a run the ball has to be in front of him thus the position shown
+11,3,13,from the body posture i was able to determine where the ball was by just looking who among the players was appearing to be more stable
+11,4,53,from the camera range it was difficult to determine but i made an effort  by reading the players body postures
+11,5,56,i looked at the composure of the players and the one that seemed most composed had to be the one with the ball
+11,6,73,body actions and the eye contact from the opponent helped in pin-pointing
+11,7,154,body posture and eye of the opponents indicated the possible ball position
+11,8,163,opponents body action and red player body movement indicated ball position
+11,9,217,eyes from the opponent players in red pin pointed possible ball position
+11,10,222,from the way red player appeared composed and white player appeared to be attacking enabled me to determine possible ball position
+12,1,3,It was closest to the player's feet. Not sure which one was offense.
+12,2,9,It was by the teammates in white shirts and appeared to be offense.
+12,3,28,Hard to tell who had the ball so guessed all but the referee.
+12,4,56,That player was running down the field and the players in black appear to be trying to catch him.
+12,5,66,The red team was getting close to the goal.
+12,6,71,It was hard to tell who had the ball but I knew it wasn't the referees.
+12,7,75,He appears to be ready to kick it in the goal.
+12,8,226,He looks like he is on offense and the red shirts are trying to catch him.
+12,9,389,"Just a guess, hard to know what was going on here."
+12,10,302,#8 appears ready to kick. Also the ball is showing.
+13,1,45,I focused on the language and direction of the player gaze
+13,2,46,I looked at the framing of the photo
+13,3,66,I considered the direction the players were running to
+13,4,79,Here i relied on my gut feeling and past experience watching soccer
+13,5,94,Here there were no clear visual clues so i made a calculated guess
+13,6,226,I checked the intensity of player's movement
+13,7,250,I checked the consistent alignment of body gaze
+13,8,464,I mentally reviewed my previous guesses
+13,9,302,I analyzed the relationship between the player and their legs movement
+13,10,347,The players were leaning on certain direction
+14,1,2,Based on where they are looking and the direction of their legs
+14,2,9,They looked like it was right in front of then based on how a couple of them looked like they were stopped from running and looking up
+14,3,21,It looks like two of them are fighting to get to a ball right in front of them based on how they are angled
+14,4,45,The player seemed to be looking into the sky by hadn't moved his hands to actually block it so it must be higher but not close yet
+14,5,78,It looked like a few of the players were looking down and to the middle of the field between them
+14,6,94,It looked like someone was getting ready to kick a ball right in front of their foot
+14,7,230,This looked like they were preparing to kick the ball directly in front of them
+14,8,309,The players looked like the ball was coming towards them from that angle and closer to the player in blue because it looked like he was getting ready to set up for a kick
+14,9,312,It looked like a few of the players were jumping up to either meet a ball in the air or had just hit it with their head and the goalie is staring upwards
+14,10,354,It looked like the ball was still coming towards them and up higher based on their view line
+15,1,3,The ball is at his foot. The players are fighting for it.
+15,2,12,"It is near the blue player, perhaps. I thought they were shooting."
+15,3,21,The red player is running forward. The blue player is trying to get to the ball.
+15,4,28,The ball is clearly at the player's foot. They have just kicked it.
+15,5,31,The two players are dueling. It appears the white player kicked it forward and the defender cut him off.
+15,6,94,They are all looking up from this perspective. The middle player is awaiting a pass.
+15,7,154,It appears to be at the player's foot. I chose wrong.
+15,8,226,"The player is running forward, full stride, with the ball at foot."
+15,9,250,The players are looking down from this perspective. A cross has to be coming in.
+15,10,312,"The players are leaping for a header. The ball is up there somewhere. Since he is at his apex, it has to be near."
+16,1,0,It looks like where his eyes are looking too in conjunction with his legs.
+16,2,24,he looks like he is taking shorter steps trying to figure his next moves out.
+16,3,30,It looks like he has the ball or is getting ready to get the ball. The other players look like they are defending instead.
+16,4,79,There are a few players that could be on the move with the ball but I could not figure out where everyone was looking.
+16,5,217,It looks like he is about to ship the ball in and he is very close because his step size is small.
+16,6,222,It looks like a penalty kick from the field line and this is where the ball would go.
+16,7,245,He is actively moving his leg in a way that isnt dodging anything.
+16,8,250,It looks like they are ready for a penalty kick from the sideline.
+16,9,277,The  step size is large and he may be kicking the ball ahead of himself.
+16,10,464,it looks like the red uniforms are defending and trying to figure out where the player in green is going with the ball.
+17,1,3,At his feet.
+17,2,5,Away from the player
+17,3,24,Going towards the player in white
+17,4,53,With the player at the bottom right
+17,5,154,At the feet of the player in blue
+17,6,217,At the feet of the player in white
+17,7,224,Away from the player in white and the goalkeeper
+17,8,226,Between the player in red on the right and the player in white on the left.
+17,9,230,At the feet of the player in blue
+17,10,303,Behind the player in red and away from the goalie
+18,1,9,One player has his leg pulled back ready to kick so I guessed in front of that leg.
+18,2,12,One player was looking in the direction of my guess.
+18,3,24,I followed several players gazes.
+18,4,32,I just saw where his leg was and thought maybe it went behind him.
+18,5,44,I wasn't sure on this one so guessed in front of three of the players.
+18,6,75,Gazes were there and one player looks like he's about to kick in that area.
+18,7,154,Gazes were there and one player looks like he's about to kick something in that area.
+18,8,303,It looks like the players just tripped over a ball in that area.
+18,9,312,I just followed the gazes of the players.
+18,10,354,"Again, just looked at the player's gazes and guessed where they were looking."
+19,1,3,where the feet are located
+19,2,5,the direction they're going
+19,3,9,position of feet
+19,4,12,wanted to cover both players
+19,5,39,looked at where feet were
+19,6,56,they were all running towards something
+19,7,94,looked like someone had kicked the ball
+19,8,223,by the goal so I took a guess which player had ball
+19,9,277,not sure who might have ball
+19,10,371,all players going in same direction
+20,1,12,because it was the most obvious spot.
+20,2,24,because it was the most obvious spot.
+20,3,31,because it was the most obvious spot.
+20,4,36,because it was the most obvious spot.
+20,5,44,because it was the most obvious spot.
+20,6,66,because it was the most obvious spot.
+20,7,73,because it was the most obvious spot.
+20,8,163,because it was the most obvious spot.
+20,9,223,because it was the most obvious spot.
+20,10,277,because it was the most obvious spot.
+21,1,5,Looked like the player was dribbling.
+21,2,21,Two players seem to be fighting for the ball.
+21,3,28,Aggressive forward dribbling.
+21,4,56,Looks like a long pass.
+21,5,62,Players all moving towards the ball.
+21,6,163,Looking at where the players have their eyes.
+21,7,223,Seems like the ball is in the air.
+21,8,303,A scrum for the ball in that area.
+21,9,312,Looks like a header.
+21,10,347,The ball is actually visible in this photo.
+22,1,39,i looked at the body language of the players
+22,2,44,looked at the body language of players
+22,3,45,the goal keeper's look
+22,4,56,body language of players
+22,5,73,was between the 2 players running towards it
+22,6,94,the players probably were surrounding it
+22,7,190,the player was running towards it
+22,8,223,players were running towards it
+22,9,245,the payer was kicking it
+22,10,309,player was running towards it
+23,1,13,players are looking in this area.   Action seems to be happening here.
+23,2,24,bodies and eyes seem to focus on this area.
+23,3,36,Movement of the player's legs
+23,4,39,blurry shot indicates movement/action
+23,5,212,player looking down to trap the ball
+23,6,222,eye track of the opponent
+23,7,312,goal keeper area of focus
+23,8,354,point of interest of the visible players
+23,9,371,action/tackle in progress
+23,10,302,ball is visible in the picture
+24,1,9,I think the ball was being kicked out into one of these three squares.
+24,2,36,Players' eyes seem to be looking at this section.
+24,3,44,I think the ball was being kicked over to the other player and I thought it was halfway.
+24,4,46,I thought the player was looking directly down in those squares.
+24,5,53,Because it seemed like that was where player attention was.
+24,6,56,I was trying to find a halfway mark for where the ball was.
+24,7,226,It looked like the player was kicking the ball in that area.
+24,8,230,It looked like the players were trying to get to that area.
+24,9,245,My guess was that the ball went into the air based on the player's leg.
+24,10,389,It looked like player attention was in this section.
+25,1,12,That is where they were looking.
+25,2,31,its the general area of where they were looking
+25,3,45,the goalie is looking that direction
+25,4,53,they are running towards this space
+25,5,66,hey are all running that direction
+25,6,71,thats where the ball would be Im sure of it!
+25,7,79,they are running that way like its a shot on goal
+25,8,230,"U figured it was right in front of him, or maybe that spot in the middle"
+25,9,250,that is the area they are all looking
+25,10,291,I imagine that is where it is being kicked from.
+26,1,9,Because of the two movement of the players that are closest in the photo and the way that the third player in front is looking.
+26,2,39,"Because of the way that number 23's foot is turned but now that I look at it again, it may be further to the player on the right."
+26,3,44,Because of the position that the players in the front are looking at the field.
+26,4,62,Because of the 3 players in the front of the photo and how they are positioned and the way they are looking down.
+26,5,66,"By the way that the player number 8 is running and how the goalie and referee are looking at the field, and positioned."
+26,6,94,"Because of the way that the players are running and how one is falling down, it may be further to the left, not sure."
+26,7,212,Because of the positioning of the players at the left side of the photo.
+26,8,223,The way that the players are positioned and where the goalie is located to defend it.
+26,9,250,"I noticed which direction that the players are looking, but not quite sure."
+26,10,302,I see the ball and instructions said that I could click on part of the ball as the guess.
+27,1,2,The players are running towards that area
+27,2,9,"They are facing that area, and looking slightly upwards"
+27,3,44,I think the red player has the ball
+27,4,53,They are running that way
+27,5,71,I think the black striped player is about to kick it
+27,6,75,The players are facing inward to the column of my guesses
+27,7,190,"I think the player is slightly facing this direction, also the composition of the photo"
+27,8,222,I think this red player has the ball based on body language
+27,9,245,"I think since the player fell, the ball is in the air above him"
+27,10,371,They are clearly fighting over control of the ball
+28,1,3,"obviously, where the two competitors is where the general location of the ball would be; and, it appears, the guy in white might have intercepted the football"
+28,2,21,the kicker was.. ..about to kick the dude in the blue-and-white attempts to steal the ball
+28,3,32,"26 is looking up in the air, slightly to his right. the opponent, who's slightly-off camera, also is looking slightly-upwards"
+28,4,44,"the body language. the fact that red isn't obviously arching his foot back, just yet, for a kick. white isn't looking dead at red but, rather, more towards the center space between his cohort. and, it so happens, the camera itself had framed the reference, with a fair amount of proximity"
+28,5,56,"i based this off of where the mutually-held Target Fixation, of the player-in-black and player-in-white, was. and, that, they weren't quite just yet prepared to strike. i hadn't been mentioning the other cohorts, through these queries of yours; but, yes: i was basing the ball's reasonable proximity, in part, from their body language as well"
+28,6,222,"now that i look at it, i feel like i was off. yes. i definitely was: i should have centralized the squares. as opposed to presuming, you-lot had set the precedent, from your original Example Picture"
+28,7,223,"it just looked like, this was the region of the photo where the boys' ball was, at that moment in time"
+28,8,224,"the striker was, indeed, about to strike: into the goal. the goalie...was about to do *his* job"
+28,9,303,"the dude in orange was doing martial arts, in an attempt to ferry the ball away from the goal"
+28,10,464,"it appeared, the ball was somewhere in that region due to the 4 interlocuters' body language"
+29,1,0,The player is about to kick the ball
+29,2,3,They are contesting for the ball
+29,3,21,They player in red is about to go for a tackle
+29,4,31,The player in yellow has pushed the ball forward ahead of the marker
+29,5,39,The player is about to control the ball
+29,6,46,The player is about to take a penalty kick
+29,7,71,The player is about to cross the ball
+29,8,75,This is a set piece situation so from the body angle the ball would be in that region
+29,9,277,The player is moving with the ball so it should be as close to him as that
+29,10,389,"I don't really know what's going on there, probably Bruno is about to lay it off for Antony"
+30,1,3,It looked like the player was kicking it in that direction
+30,2,21,That was the direction in which the players are running
+30,3,45,The players seemed to be looking in that direction
+30,4,66,The players are running in that direction
+30,5,222,The player is looking in that direction
+30,6,226,The player looked like he was going to kick in that direction
+30,7,277,The player looked like he is about to kick in that direction
+30,8,354,The player is running in that direction
+30,9,302,I see the ball in the photo
+30,10,347,I see the ball in the photo
+31,1,24,The direction of the players faces.
+31,2,31,The direction of the players faces.
+31,3,39,The direction of the players faces.
+31,4,44,The direction of the players feet.
+31,5,46,The direction of the players faces.
+31,6,56,The direction of the players faces.
+31,7,66,The direction of the players faces and body.
+31,8,75,The positioning of the players feet.
+31,9,212,The direction of the players faces.
+31,10,464,The direction of the players faces.
+32,1,2,The ball was being pursued at that spot
+32,2,21,The defenders were not making it easy for their opponents to get to that spot
+32,3,31,The player number 3 was being held back from reaching that particular area
+32,4,36,The player on the green jersey looks like he was about to pass the ball from that area
+32,5,56,The player closest to the marked are looks like he is about to strike the ball into the box while other players on his team are hurrying to ito the box to take posession of the ball.
+32,6,66,"Both the goalkeeper, the players on his team, and players from the opposing team are all attacking the marked area"
+32,7,94,I guessed the ball is in the marked area because the player in the white jersey looks like he was about to strike the ball from the marked area while the opposing players are attacking the same area.
+32,8,163,I guessed the ball is in the marked area because the player in red and the goalkeeper are attacking the marked area.
+32,9,223,I guessed the ball is in the marked area because the player in the white jersey closest to the marked area is about to strike from the marked area.
+32,10,291,Players from both teams are attacking towards the marked area.
+33,1,3,It looked like the right spot
+33,2,4,It looked like where it should be
+33,3,24,It looked like a good spot
+33,4,32,It looked like where it should be
+33,5,44,seemed like a good guess
+33,6,66,it seemed like its where it should be
+33,7,71,it looked good
+33,8,222,it looked good
+33,9,291,it seemed like the right spot
+33,10,354,it looked good
+34,1,4,The way the guy in red's foot looked as well as the gaze of the one in gray made me think it might be there.
+34,2,5,I was confused on this one. I tried to judge the angle of their bodies as well as the direction they were looking.
+34,3,12,I tried to look for a mutual point where the 2 on opposite ends were focusing their attention. The guy on the left is leaning over way more as though running harder and so I thought it was much closer to the other guy.
+34,4,30,I thought the way that guy was standing more still that maybe he was controlling the ball while the others were pursuing it.
+34,5,71,"I tried to judge where everyone was concentrating, and also that guy in the center back seemed like the focus of the photo and like he had the ball."
+34,6,75,"I tried to average what they all were doing but it was harder for me to tell here,"
+34,7,154,"I think I might have thought the way that guy has his foot up might have meant he had the ball, but not sure about that. I also considered where others are looking and body positions."
+34,8,230,the focal point of the picture seemed around that area.  Also the way they are looking and have their bodies turned.
+34,9,291,It seems to be near where everyone has focused their attention.
+34,10,389,harder to tell what was going on here but all are looking inward.
+35,1,12,Both the two players are looking around that area.
+35,2,21,All the players are running towards that area.
+35,3,24,The player on white t-shirt is preparing to shoot and the other players are looking at him on that area.
+35,4,28,The player is making a run and is keeping the ball in touch there.
+35,5,30,The ball has already been shot and the goalkeeper is preparing to block it from going to the net.
+35,6,56,All the players are looking at that area
+35,7,71,The player in white and black t-shirt is preparing to shoot and all the focus is in that box.
+35,8,226,All the players shown are running towards that area where the player in white is running with the ball.
+35,9,291,All the players are focusing n those boxes.
+35,10,354,Both the goalkeeper and the players shown are looking around that area.
+36,1,12,The player was in the 18 yard
+36,2,30,The player was closer to the goal post
+36,3,31,It was a handball
+36,4,56,The player was given pases
+36,5,78,It was a goalkick
+36,6,154,It was a  short
+36,7,224,The player was in the 18 yard
+36,8,250,It was a throwball
+36,9,303,The keeper caught the ball
+36,10,371,It was a handball
+37,1,0,I chose based on how the player's leg is positioned.
+37,2,2,I picked based on how player's legs are positioned.
+37,3,71,I picked based on how player's legs are positioned.
+37,4,154,I picked based on how player's legs are positioned
+37,5,212,I picked based on how the players are running.
+37,6,230,I picked based on how the players are running.
+37,7,245,I picked based on how the players fell.
+37,8,309,I picked based on how the players are running.
+37,9,464,I picked based on how the players are running.
+37,10,347,Because the ball was there.
+38,1,9,Looked like could be lining up for headbutt.
+38,2,12,Judging by the white jersey players eyeline.
+38,3,21,Blue jersey player was looking in that direction.
+38,4,24,Player in white seemed to be heading there.
+38,5,30,Goalie looked like he was preparing to stop the ball.
+38,6,44,Direction of white player and eyeline of red player.
+38,7,78,Goalie looked like was watching ball already past him.
+38,8,212,Red players looking in that direction.
+38,9,224,Goalie sprinting left suggested ball being kicked from that area.
+38,10,230,Both players looking in that area.
+39,1,0,One of the players leg is kicking
+39,2,2,The players are focused on that spot
+39,3,3,The players are looking at the spot
+39,4,5,The players are looking at the spot
+39,5,21,The players are looking at the spot
+39,6,53,The players are looking at the spot
+39,7,94,The players are looking at the spot
+39,8,163,The players are looking at the spot
+39,9,217,The players are looking at the spot
+39,10,303,The players are looking at the spot
+40,1,0,The footballers seemed to be focused around that points.
+40,2,9,The footballer are running toward that point
+40,3,36,The footballers seems to be focusing on something that is around that place
+40,4,53,The footballer seemed to be focused around that place.
+40,5,62,They seems to be focused on something.
+40,6,79,The goal keeper seems to be collecting the ball.
+40,7,212,The players are focusing around that area
+40,8,303,The players who is down seemed to be holding something.
+40,9,309,the balls seemed to be here
+40,10,464,The footballer seemed to be focusing on something.
+41,1,13,general body movement
+41,2,62,general body movement
+41,3,66,general body movement
+41,4,73,general body movement
+41,5,79,general body movement
+41,6,94,general body movement
+41,7,163,general body movement
+41,8,217,general body movement
+41,9,224,general body movement
+41,10,245,general body movement
+42,1,13,The middle player was kicking it to the side.
+42,2,21,All the players looking towards this area.
+42,3,30,"All the players looking in the middle, which meant it was in the air."
+42,4,44,This one I wasn't too entirely sure on.
+42,5,73,It looked like one of them hit the ball from the upper area.
+42,6,75,The ball was likely hit above towards the goal.
+42,7,163,The players going more down looking at the ball.
+42,8,212,I guessed this one.
+42,9,224,I thought it was that one of the players in the middle hit the ball.
+42,10,226,The ball in the middle likely as all the players are looking down.
+43,1,24,Because the ball would be closest from that distance
+43,2,45,The ball seems to be around the area
+43,3,53,The players seem to be chasing the ball
+43,4,94,That's where the ball would be
+43,5,163,The ball would be around that area
+43,6,222,That's where the ball would be
+43,7,223,That's the best probable position
+43,8,309,That's exactly where the ball would be
+43,9,371,The ball would be around that area
+43,10,464,That's where the ball would most likely be
+44,1,2,the foremost player was running that way likely with the ball
+44,2,12,The person looked like the ball was close to them about to kick it
+44,3,21,2 opposing players running to the same spot/area of focus
+44,4,44,"this looked like a passing scenario, not sure which player had the ball if that happened"
+44,5,46,looks like a set kick from a spot
+44,6,73,he looks to be running away with possession of the ball
+44,7,78,seems this is a header and the ball is in the air somewhere near the goal
+44,8,222,red shirt player looks like they are dribbling close to their feet
+44,9,302,there is a ball
+44,10,347,there is a ball
+45,1,31,trying to see where their eyes are looking
+45,2,78,seemed like it was in the air
+45,3,94,everyone looking that way
+45,4,163,look like it was out front of the lead red player
+45,5,212,seemed where it should be
+45,6,217,looks like player number 10 has it
+45,7,226,seeing where their eyes are looking
+45,8,312,seemed like jumping player headed the ball
+45,9,389,looks like the red player has it
+45,10,464,"looks like the blue player has it , everyone looking at him"
+46,1,3,All players are facing this direction
+46,2,13,The playeres are all running toward this point
+46,3,21,The players are all running in this direction
+46,4,39,There is a lot of open space here
+46,5,56,The player in the center is running in this direction
+46,6,75,The player on the right appears to be looking in this direction
+46,7,224,The players on the left are running very fast in this direction
+46,8,245,The player in the center appears to have just kicked the ball in an upward direction
+46,9,389,All of the players are focused on these points
+46,10,464,It appears the player on the left just kicked the ball in this direction
+47,1,2,The player is running that direction
+47,2,4,It looks like they are looking in that area
+47,3,28,I thought the guy in the white and black shirt kicked it there.
+47,4,30,I thought it made the most sense.
+47,5,44,It is in the middle where the players are looking
+47,6,45,It looks like the player is looking in that direction
+47,7,53,It is in the area that the players are running
+47,8,62,It is a central area to the players
+47,9,94,They are running in this direction
+47,10,302,There is a ball in the photo right there
+48,1,3,It looks like the person in white is or just touched the ball.
+48,2,32,It looks like the person in white is looking back and the ball is coming his way.
+48,3,36,It looks like the ball is next to the person in neon green.
+48,4,46,It looks like the ball is at a distance and everyone is looking in that direction.
+48,5,66,It looks like they are chasing the ball in that direction to get to the goal.
+48,6,190,Everyone is looking in that direction and the person in white is moving towards it.
+48,7,303,The ball might be in the air because the goal is near by.
+48,8,354,It looks like they are both looking at the ball far off.
+48,9,371,They both look like they are looking at the same spot and the person is red is about to kick it.
+48,10,302,The ball is in this photo.
+49,1,13,Because that is the right place
+49,2,21,Because of the movement of the players
+49,3,44,because that is the actual position
+49,4,45,because it at the right place
+49,5,66,because of the movement of the players
+49,6,217,because that was the actual position
+49,7,250,because it was the right place
+49,8,312,because it was the right place
+49,9,389,because it was the right place
+49,10,464,because it was the right place
+50,1,3,the player on white raises his leg go give me an impression that the ball is no on the ground and the close proximity of the red player trying to intercept
+50,2,5,where the player in white seems to be looking and the head of the red player seems to align
+50,3,53,everyone is sort of facing that direction
+50,4,66,the ball should be set for the white player to shoot
+50,5,163,i feel the ball just passed the white player
+50,6,217,the red player looking and the white player readiness to kick
+50,7,224,keeper and white player going same direction
+50,8,226,both players going in for the ball
+50,9,245,the leg position of player 11
+50,10,302,i can literally see the ball

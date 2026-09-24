@@ -1,20 +1,17 @@
-We provide all the code used to generate the data, and reproduce the results in the paper.
-The larger dataset is too large for github so we have it on huggingface, but the evaluation dataset is included here. 
-
-Setup 
-1. Install the dependencies
-```
-pip install -r requirements.txt
-```
-
-Dependencies:
-numpy
+# Core -- required by src/data/build_dataset.py and validate_dataset.py
 pandas
+numpy
+
+# Analysis and figures
 scikit-learn
-tqdm
-google-auth
-google-generativeai
-openai
+scipy
 matplotlib
 seaborn
+tqdm
+
+# Model querying (src/prompts/*.py) -- only needed to regenerate responses
+openai
+google-auth
+google-generativeai
+langchain-openai
 python-dotenv
